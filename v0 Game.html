@@ -1,0 +1,1432 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)https://preview-paralegal-game-kzmk5x54580tuisgyulo.vusercontent.net/ -->
+<html class="__className_3a0388 __variable_3a0388 __variable_c1e5c9" style="--font-sans:var(--font-geist-sans);--font-mono:var(--font-geist-mono);--font-serif:__fallback" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./v0 Game_files/5e5c87ba0fcdd97e.css" data-precedence="next"><link rel="stylesheet" href="./v0 Game_files/8c27ffaabc6186da.css" data-precedence="next"><link rel="stylesheet" href="./v0 Game_files/56e3b90c5978c1c5.css" data-precedence="next"><link rel="preload" as="script" fetchpriority="low" href="./v0 Game_files/webpack-5eb529f92007c5e8.js.download"><script src="./v0 Game_files/106fa40b-1366dae34fef28b7.js.download" async=""></script><script src="./v0 Game_files/9988-1ff1d30154b6c0da.js.download" async=""></script><script src="./v0 Game_files/main-app-bc51a6d71cdeb7e5.js.download" async=""></script><meta name="next-size-adjust" content=""><title>v0</title><script src="./v0 Game_files/polyfills-42372ed130431b0a.js.download" nomodule=""></script><link rel="preload" href="https://preview-paralegal-game-kzmk5x54580tuisgyulo.vusercontent.net/_next/static/media/66f30814ff6d7cdf.p.woff2" as="font" crossorigin="" type="font/woff2"><link rel="preload" href="https://preview-paralegal-game-kzmk5x54580tuisgyulo.vusercontent.net/_next/static/media/e11418ac562b8ac1-s.p.woff2" as="font" crossorigin="" type="font/woff2"><script src="./v0 Game_files/tailwind-v4.js.download" async="" fetchpriority="high"></script><style>/*! tailwindcss v4.1.11 | MIT License | https://tailwindcss.com */
+@layer properties;
+@layer theme, base, components, utilities;
+@layer theme {
+  :root, :host {
+    --font-sans: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+    monospace;
+    --color-blue-50: oklch(97% 0.014 254.604);
+    --color-blue-700: oklch(48.8% 0.243 264.376);
+    --color-blue-800: oklch(42.4% 0.199 265.638);
+    --color-indigo-100: oklch(93% 0.034 272.788);
+    --color-indigo-600: oklch(51.1% 0.262 276.966);
+    --color-indigo-700: oklch(45.7% 0.24 277.023);
+    --color-indigo-800: oklch(39.8% 0.195 277.366);
+    --color-slate-50: oklch(98.4% 0.003 247.858);
+    --color-gray-50: oklch(98.5% 0.002 247.839);
+    --color-gray-200: oklch(92.8% 0.006 264.531);
+    --color-gray-600: oklch(44.6% 0.03 256.802);
+    --color-gray-700: oklch(37.3% 0.034 259.733);
+    --color-gray-800: oklch(27.8% 0.033 256.848);
+    --color-white: #fff;
+    --spacing: 0.25rem;
+    --container-4xl: 56rem;
+    --text-sm: 0.875rem;
+    --text-sm--line-height: calc(1.25 / 0.875);
+    --text-2xl: 1.5rem;
+    --text-2xl--line-height: calc(2 / 1.5);
+    --text-3xl: 1.875rem;
+    --text-3xl--line-height: calc(2.25 / 1.875);
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --default-transition-duration: 150ms;
+    --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --default-font-family: var(--font-sans);
+    --default-mono-font-family: var(--font-mono);
+  }
+}
+@layer base {
+  *, ::after, ::before, ::backdrop, ::file-selector-button {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0 solid;
+  }
+  html, :host {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    font-family: var(--default-font-family, ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji');
+    font-feature-settings: var(--default-font-feature-settings, normal);
+    font-variation-settings: var(--default-font-variation-settings, normal);
+    -webkit-tap-highlight-color: transparent;
+  }
+  hr {
+    height: 0;
+    color: inherit;
+    border-top-width: 1px;
+  }
+  abbr:where([title]) {
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  a {
+    color: inherit;
+    -webkit-text-decoration: inherit;
+    text-decoration: inherit;
+  }
+  b, strong {
+    font-weight: bolder;
+  }
+  code, kbd, samp, pre {
+    font-family: var(--default-mono-font-family, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace);
+    font-feature-settings: var(--default-mono-font-feature-settings, normal);
+    font-variation-settings: var(--default-mono-font-variation-settings, normal);
+    font-size: 1em;
+  }
+  small {
+    font-size: 80%;
+  }
+  sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  sup {
+    top: -0.5em;
+  }
+  table {
+    text-indent: 0;
+    border-color: inherit;
+    border-collapse: collapse;
+  }
+  :-moz-focusring {
+    outline: auto;
+  }
+  progress {
+    vertical-align: baseline;
+  }
+  summary {
+    display: list-item;
+  }
+  ol, ul, menu {
+    list-style: none;
+  }
+  img, svg, video, canvas, audio, iframe, embed, object {
+    display: block;
+    vertical-align: middle;
+  }
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  button, input, select, optgroup, textarea, ::file-selector-button {
+    font: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    border-radius: 0;
+    background-color: transparent;
+    opacity: 1;
+  }
+  :where(select:is([multiple], [size])) optgroup {
+    font-weight: bolder;
+  }
+  :where(select:is([multiple], [size])) optgroup option {
+    padding-inline-start: 20px;
+  }
+  ::file-selector-button {
+    margin-inline-end: 4px;
+  }
+  ::placeholder {
+    opacity: 1;
+  }
+  @supports (not (-webkit-appearance: -apple-pay-button))  or (contain-intrinsic-size: 1px) {
+    ::placeholder {
+      color: currentcolor;
+      @supports (color: color-mix(in lab, red, red)) {
+        color: color-mix(in oklab, currentcolor 50%, transparent);
+      }
+    }
+  }
+  textarea {
+    resize: vertical;
+  }
+  ::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  ::-webkit-date-and-time-value {
+    min-height: 1lh;
+    text-align: inherit;
+  }
+  ::-webkit-datetime-edit {
+    display: inline-flex;
+  }
+  ::-webkit-datetime-edit-fields-wrapper {
+    padding: 0;
+  }
+  ::-webkit-datetime-edit, ::-webkit-datetime-edit-year-field, ::-webkit-datetime-edit-month-field, ::-webkit-datetime-edit-day-field, ::-webkit-datetime-edit-hour-field, ::-webkit-datetime-edit-minute-field, ::-webkit-datetime-edit-second-field, ::-webkit-datetime-edit-millisecond-field, ::-webkit-datetime-edit-meridiem-field {
+    padding-block: 0;
+  }
+  :-moz-ui-invalid {
+    box-shadow: none;
+  }
+  button, input:where([type='button'], [type='reset'], [type='submit']), ::file-selector-button {
+    appearance: button;
+  }
+  ::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+    height: auto;
+  }
+  [hidden]:where(:not([hidden='until-found'])) {
+    display: none !important;
+  }
+}
+@layer utilities {
+  .container {
+    width: 100%;
+    @media (width >= 40rem) {
+      max-width: 40rem;
+    }
+    @media (width >= 48rem) {
+      max-width: 48rem;
+    }
+    @media (width >= 64rem) {
+      max-width: 64rem;
+    }
+    @media (width >= 80rem) {
+      max-width: 80rem;
+    }
+    @media (width >= 96rem) {
+      max-width: 96rem;
+    }
+  }
+  .mx-auto {
+    margin-inline: auto;
+  }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
+  }
+  .mb-4 {
+    margin-bottom: calc(var(--spacing) * 4);
+  }
+  .mb-6 {
+    margin-bottom: calc(var(--spacing) * 6);
+  }
+  .mb-8 {
+    margin-bottom: calc(var(--spacing) * 8);
+  }
+  .grid {
+    display: grid;
+  }
+  .inline-block {
+    display: inline-block;
+  }
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  .max-w-4xl {
+    max-width: var(--container-4xl);
+  }
+  .list-disc {
+    list-style-type: disc;
+  }
+  .grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .gap-4 {
+    gap: calc(var(--spacing) * 4);
+  }
+  .rounded {
+    border-radius: 0.25rem;
+  }
+  .rounded-lg {
+    border-radius: var(--radius);
+  }
+  .rounded-xl {
+    border-radius: calc(var(--radius) + 4px);
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+  .border-gray-200 {
+    border-color: var(--color-gray-200);
+  }
+  .bg-blue-50 {
+    background-color: var(--color-blue-50);
+  }
+  .bg-gray-50 {
+    background-color: var(--color-gray-50);
+  }
+  .bg-indigo-100 {
+    background-color: var(--color-indigo-100);
+  }
+  .bg-indigo-600 {
+    background-color: var(--color-indigo-600);
+  }
+  .bg-slate-50 {
+    background-color: var(--color-slate-50);
+  }
+  .bg-white {
+    background-color: var(--color-white);
+  }
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
+  }
+  .p-3 {
+    padding: calc(var(--spacing) * 3);
+  }
+  .p-4 {
+    padding: calc(var(--spacing) * 4);
+  }
+  .p-6 {
+    padding: calc(var(--spacing) * 6);
+  }
+  .px-4 {
+    padding-inline: calc(var(--spacing) * 4);
+  }
+  .px-6 {
+    padding-inline: calc(var(--spacing) * 6);
+  }
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
+  }
+  .py-8 {
+    padding-block: calc(var(--spacing) * 8);
+  }
+  .pl-5 {
+    padding-left: calc(var(--spacing) * 5);
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-left {
+    text-align: left;
+  }
+  .text-2xl {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
+  }
+  .text-3xl {
+    font-size: var(--text-3xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height));
+  }
+  .text-sm {
+    font-size: var(--text-sm);
+    line-height: var(--tw-leading, var(--text-sm--line-height));
+  }
+  .font-bold {
+    --tw-font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold);
+  }
+  .font-medium {
+    --tw-font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-medium);
+  }
+  .font-semibold {
+    --tw-font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-semibold);
+  }
+  .text-blue-700 {
+    color: var(--color-blue-700);
+  }
+  .text-blue-800 {
+    color: var(--color-blue-800);
+  }
+  .text-gray-600 {
+    color: var(--color-gray-600);
+  }
+  .text-gray-700 {
+    color: var(--color-gray-700);
+  }
+  .text-gray-800 {
+    color: var(--color-gray-800);
+  }
+  .text-indigo-700 {
+    color: var(--color-indigo-700);
+  }
+  .text-indigo-800 {
+    color: var(--color-indigo-800);
+  }
+  .text-white {
+    color: var(--color-white);
+  }
+  .shadow-lg {
+    --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .transition-colors {
+    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+  .hover\:bg-indigo-700 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-indigo-700);
+      }
+    }
+  }
+  .md\:grid-cols-2 {
+    @media (width >= 48rem) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+}
+:root {
+  @property --tw-animation-delay {
+    syntax: "*";
+    inherits: false;
+    initial-value: 0s;
+  }
+  @property --tw-animation-direction {
+    syntax: "*";
+    inherits: false;
+    initial-value: normal;
+  }
+  @property --tw-animation-duration {
+    syntax: "*";
+    inherits: false;
+  }
+  @property --tw-animation-fill-mode {
+    syntax: "*";
+    inherits: false;
+    initial-value: none;
+  }
+  @property --tw-animation-iteration-count {
+    syntax: "*";
+    inherits: false;
+    initial-value: 1;
+  }
+  @property --tw-enter-opacity {
+    syntax: "*";
+    inherits: false;
+    initial-value: 1;
+  }
+  @property --tw-enter-rotate {
+    syntax: "*";
+    inherits: false;
+    initial-value: 0;
+  }
+  @property --tw-enter-scale {
+    syntax: "*";
+    inherits: false;
+    initial-value: 1;
+  }
+  @property --tw-enter-translate-x {
+    syntax: "*";
+    inherits: false;
+    initial-value: 0;
+  }
+  @property --tw-enter-translate-y {
+    syntax: "*";
+    inherits: false;
+    initial-value: 0;
+  }
+  @property --tw-exit-opacity {
+    syntax: "*";
+    inherits: false;
+    initial-value: 1;
+  }
+  @property --tw-exit-rotate {
+    syntax: "*";
+    inherits: false;
+    initial-value: 0;
+  }
+  @property --tw-exit-scale {
+    syntax: "*";
+    inherits: false;
+    initial-value: 1;
+  }
+  @property --tw-exit-translate-x {
+    syntax: "*";
+    inherits: false;
+    initial-value: 0;
+  }
+  @property --tw-exit-translate-y {
+    syntax: "*";
+    inherits: false;
+    initial-value: 0;
+  }
+}
+:root {
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --radius: 0.625rem;
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+}
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.145 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.145 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.985 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.396 0.141 25.723);
+  --destructive-foreground: oklch(0.637 0.237 25.331);
+  --border: oklch(0.269 0 0);
+  --input: oklch(0.269 0 0);
+  --ring: oklch(0.439 0 0);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(0.269 0 0);
+  --sidebar-ring: oklch(0.439 0 0);
+}
+@layer base {
+  * {
+    border-color: var(--border);
+    outline-color: var(--ring);
+    @supports (color: color-mix(in lab, red, red)) {
+      outline-color: color-mix(in oklab, var(--ring) 50%, transparent);
+    }
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+}
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-inset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-inset-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-inset-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-inset-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-inset-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-ring-inset {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ring-offset-width {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0px;
+}
+@property --tw-ring-offset-color {
+  syntax: "*";
+  inherits: false;
+  initial-value: #fff;
+}
+@property --tw-ring-offset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@layer properties {
+  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
+    *, ::before, ::after, ::backdrop {
+      --tw-border-style: solid;
+      --tw-font-weight: initial;
+      --tw-shadow: 0 0 #0000;
+      --tw-shadow-color: initial;
+      --tw-shadow-alpha: 100%;
+      --tw-inset-shadow: 0 0 #0000;
+      --tw-inset-shadow-color: initial;
+      --tw-inset-shadow-alpha: 100%;
+      --tw-ring-color: initial;
+      --tw-ring-shadow: 0 0 #0000;
+      --tw-inset-ring-color: initial;
+      --tw-inset-ring-shadow: 0 0 #0000;
+      --tw-ring-inset: initial;
+      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-color: #fff;
+      --tw-ring-offset-shadow: 0 0 #0000;
+    }
+  }
+}
+</style><style>/*! tailwindcss v4.1.11 | MIT License | https://tailwindcss.com */
+@layer properties;
+@layer theme, base, components, utilities;
+@layer theme {
+  :root, :host {
+    --font-sans: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+    monospace;
+    --color-blue-50: oklch(97% 0.014 254.604);
+    --color-blue-700: oklch(48.8% 0.243 264.376);
+    --color-blue-800: oklch(42.4% 0.199 265.638);
+    --color-indigo-100: oklch(93% 0.034 272.788);
+    --color-indigo-600: oklch(51.1% 0.262 276.966);
+    --color-indigo-700: oklch(45.7% 0.24 277.023);
+    --color-indigo-800: oklch(39.8% 0.195 277.366);
+    --color-slate-50: oklch(98.4% 0.003 247.858);
+    --color-gray-50: oklch(98.5% 0.002 247.839);
+    --color-gray-200: oklch(92.8% 0.006 264.531);
+    --color-gray-600: oklch(44.6% 0.03 256.802);
+    --color-gray-700: oklch(37.3% 0.034 259.733);
+    --color-gray-800: oklch(27.8% 0.033 256.848);
+    --color-white: #fff;
+    --spacing: 0.25rem;
+    --container-4xl: 56rem;
+    --text-sm: 0.875rem;
+    --text-sm--line-height: calc(1.25 / 0.875);
+    --text-2xl: 1.5rem;
+    --text-2xl--line-height: calc(2 / 1.5);
+    --text-3xl: 1.875rem;
+    --text-3xl--line-height: calc(2.25 / 1.875);
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --default-transition-duration: 150ms;
+    --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --default-font-family: var(--font-sans);
+    --default-mono-font-family: var(--font-mono);
+  }
+}
+@layer base {
+  *, ::after, ::before, ::backdrop, ::file-selector-button {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0 solid;
+  }
+  html, :host {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    font-family: var(--default-font-family, ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji');
+    font-feature-settings: var(--default-font-feature-settings, normal);
+    font-variation-settings: var(--default-font-variation-settings, normal);
+    -webkit-tap-highlight-color: transparent;
+  }
+  hr {
+    height: 0;
+    color: inherit;
+    border-top-width: 1px;
+  }
+  abbr:where([title]) {
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  a {
+    color: inherit;
+    -webkit-text-decoration: inherit;
+    text-decoration: inherit;
+  }
+  b, strong {
+    font-weight: bolder;
+  }
+  code, kbd, samp, pre {
+    font-family: var(--default-mono-font-family, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace);
+    font-feature-settings: var(--default-mono-font-feature-settings, normal);
+    font-variation-settings: var(--default-mono-font-variation-settings, normal);
+    font-size: 1em;
+  }
+  small {
+    font-size: 80%;
+  }
+  sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  sup {
+    top: -0.5em;
+  }
+  table {
+    text-indent: 0;
+    border-color: inherit;
+    border-collapse: collapse;
+  }
+  :-moz-focusring {
+    outline: auto;
+  }
+  progress {
+    vertical-align: baseline;
+  }
+  summary {
+    display: list-item;
+  }
+  ol, ul, menu {
+    list-style: none;
+  }
+  img, svg, video, canvas, audio, iframe, embed, object {
+    display: block;
+    vertical-align: middle;
+  }
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  button, input, select, optgroup, textarea, ::file-selector-button {
+    font: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    border-radius: 0;
+    background-color: transparent;
+    opacity: 1;
+  }
+  :where(select:is([multiple], [size])) optgroup {
+    font-weight: bolder;
+  }
+  :where(select:is([multiple], [size])) optgroup option {
+    padding-inline-start: 20px;
+  }
+  ::file-selector-button {
+    margin-inline-end: 4px;
+  }
+  ::placeholder {
+    opacity: 1;
+  }
+  @supports (not (-webkit-appearance: -apple-pay-button))  or (contain-intrinsic-size: 1px) {
+    ::placeholder {
+      color: currentcolor;
+      @supports (color: color-mix(in lab, red, red)) {
+        color: color-mix(in oklab, currentcolor 50%, transparent);
+      }
+    }
+  }
+  textarea {
+    resize: vertical;
+  }
+  ::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  ::-webkit-date-and-time-value {
+    min-height: 1lh;
+    text-align: inherit;
+  }
+  ::-webkit-datetime-edit {
+    display: inline-flex;
+  }
+  ::-webkit-datetime-edit-fields-wrapper {
+    padding: 0;
+  }
+  ::-webkit-datetime-edit, ::-webkit-datetime-edit-year-field, ::-webkit-datetime-edit-month-field, ::-webkit-datetime-edit-day-field, ::-webkit-datetime-edit-hour-field, ::-webkit-datetime-edit-minute-field, ::-webkit-datetime-edit-second-field, ::-webkit-datetime-edit-millisecond-field, ::-webkit-datetime-edit-meridiem-field {
+    padding-block: 0;
+  }
+  :-moz-ui-invalid {
+    box-shadow: none;
+  }
+  button, input:where([type='button'], [type='reset'], [type='submit']), ::file-selector-button {
+    appearance: button;
+  }
+  ::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+    height: auto;
+  }
+  [hidden]:where(:not([hidden='until-found'])) {
+    display: none !important;
+  }
+}
+@layer utilities {
+  .container {
+    width: 100%;
+    @media (width >= 40rem) {
+      max-width: 40rem;
+    }
+    @media (width >= 48rem) {
+      max-width: 48rem;
+    }
+    @media (width >= 64rem) {
+      max-width: 64rem;
+    }
+    @media (width >= 80rem) {
+      max-width: 80rem;
+    }
+    @media (width >= 96rem) {
+      max-width: 96rem;
+    }
+  }
+  .mx-auto {
+    margin-inline: auto;
+  }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
+  }
+  .mb-4 {
+    margin-bottom: calc(var(--spacing) * 4);
+  }
+  .mb-6 {
+    margin-bottom: calc(var(--spacing) * 6);
+  }
+  .mb-8 {
+    margin-bottom: calc(var(--spacing) * 8);
+  }
+  .grid {
+    display: grid;
+  }
+  .inline-block {
+    display: inline-block;
+  }
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  .max-w-4xl {
+    max-width: var(--container-4xl);
+  }
+  .list-disc {
+    list-style-type: disc;
+  }
+  .grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .gap-4 {
+    gap: calc(var(--spacing) * 4);
+  }
+  .rounded {
+    border-radius: 0.25rem;
+  }
+  .rounded-lg {
+    border-radius: var(--radius);
+  }
+  .rounded-xl {
+    border-radius: calc(var(--radius) + 4px);
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+  .border-gray-200 {
+    border-color: var(--color-gray-200);
+  }
+  .bg-blue-50 {
+    background-color: var(--color-blue-50);
+  }
+  .bg-gray-50 {
+    background-color: var(--color-gray-50);
+  }
+  .bg-indigo-100 {
+    background-color: var(--color-indigo-100);
+  }
+  .bg-indigo-600 {
+    background-color: var(--color-indigo-600);
+  }
+  .bg-slate-50 {
+    background-color: var(--color-slate-50);
+  }
+  .bg-white {
+    background-color: var(--color-white);
+  }
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
+  }
+  .p-3 {
+    padding: calc(var(--spacing) * 3);
+  }
+  .p-4 {
+    padding: calc(var(--spacing) * 4);
+  }
+  .p-6 {
+    padding: calc(var(--spacing) * 6);
+  }
+  .px-4 {
+    padding-inline: calc(var(--spacing) * 4);
+  }
+  .px-6 {
+    padding-inline: calc(var(--spacing) * 6);
+  }
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
+  }
+  .py-8 {
+    padding-block: calc(var(--spacing) * 8);
+  }
+  .pl-5 {
+    padding-left: calc(var(--spacing) * 5);
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-left {
+    text-align: left;
+  }
+  .text-2xl {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
+  }
+  .text-3xl {
+    font-size: var(--text-3xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height));
+  }
+  .text-sm {
+    font-size: var(--text-sm);
+    line-height: var(--tw-leading, var(--text-sm--line-height));
+  }
+  .font-bold {
+    --tw-font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold);
+  }
+  .font-medium {
+    --tw-font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-medium);
+  }
+  .font-semibold {
+    --tw-font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-semibold);
+  }
+  .text-blue-700 {
+    color: var(--color-blue-700);
+  }
+  .text-blue-800 {
+    color: var(--color-blue-800);
+  }
+  .text-gray-600 {
+    color: var(--color-gray-600);
+  }
+  .text-gray-700 {
+    color: var(--color-gray-700);
+  }
+  .text-gray-800 {
+    color: var(--color-gray-800);
+  }
+  .text-indigo-700 {
+    color: var(--color-indigo-700);
+  }
+  .text-indigo-800 {
+    color: var(--color-indigo-800);
+  }
+  .text-white {
+    color: var(--color-white);
+  }
+  .shadow-lg {
+    --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .transition-colors {
+    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+  .hover\:bg-indigo-700 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-indigo-700);
+      }
+    }
+  }
+  .md\:grid-cols-2 {
+    @media (width >= 48rem) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+}
+:root {
+  @property --tw-animation-delay {
+    syntax: "*";
+    inherits: false;
+    initial-value: 0s;
+  }
+  @property --tw-animation-direction {
+    syntax: "*";
+    inherits: false;
+    initial-value: normal;
+  }
+  @property --tw-animation-duration {
+    syntax: "*";
+    inherits: false;
+  }
+  @property --tw-animation-fill-mode {
+    syntax: "*";
+    inherits: false;
+    initial-value: none;
+  }
+  @property --tw-animation-iteration-count {
+    syntax: "*";
+    inherits: false;
+    initial-value: 1;
+  }
+  @property --tw-enter-opacity {
+    syntax: "*";
+    inherits: false;
+    initial-value: 1;
+  }
+  @property --tw-enter-rotate {
+    syntax: "*";
+    inherits: false;
+    initial-value: 0;
+  }
+  @property --tw-enter-scale {
+    syntax: "*";
+    inherits: false;
+    initial-value: 1;
+  }
+  @property --tw-enter-translate-x {
+    syntax: "*";
+    inherits: false;
+    initial-value: 0;
+  }
+  @property --tw-enter-translate-y {
+    syntax: "*";
+    inherits: false;
+    initial-value: 0;
+  }
+  @property --tw-exit-opacity {
+    syntax: "*";
+    inherits: false;
+    initial-value: 1;
+  }
+  @property --tw-exit-rotate {
+    syntax: "*";
+    inherits: false;
+    initial-value: 0;
+  }
+  @property --tw-exit-scale {
+    syntax: "*";
+    inherits: false;
+    initial-value: 1;
+  }
+  @property --tw-exit-translate-x {
+    syntax: "*";
+    inherits: false;
+    initial-value: 0;
+  }
+  @property --tw-exit-translate-y {
+    syntax: "*";
+    inherits: false;
+    initial-value: 0;
+  }
+}
+:root {
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --radius: 0.625rem;
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+}
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.145 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.145 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.985 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.396 0.141 25.723);
+  --destructive-foreground: oklch(0.637 0.237 25.331);
+  --border: oklch(0.269 0 0);
+  --input: oklch(0.269 0 0);
+  --ring: oklch(0.439 0 0);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(0.269 0 0);
+  --sidebar-ring: oklch(0.439 0 0);
+}
+@layer base {
+  * {
+    border-color: var(--border);
+    outline-color: var(--ring);
+    @supports (color: color-mix(in lab, red, red)) {
+      outline-color: color-mix(in oklab, var(--ring) 50%, transparent);
+    }
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+}
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-inset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-inset-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-inset-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-inset-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-inset-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-ring-inset {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ring-offset-width {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0px;
+}
+@property --tw-ring-offset-color {
+  syntax: "*";
+  inherits: false;
+  initial-value: #fff;
+}
+@property --tw-ring-offset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@layer properties {
+  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
+    *, ::before, ::after, ::backdrop {
+      --tw-border-style: solid;
+      --tw-font-weight: initial;
+      --tw-shadow: 0 0 #0000;
+      --tw-shadow-color: initial;
+      --tw-shadow-alpha: 100%;
+      --tw-inset-shadow: 0 0 #0000;
+      --tw-inset-shadow-color: initial;
+      --tw-inset-shadow-alpha: 100%;
+      --tw-ring-color: initial;
+      --tw-ring-shadow: 0 0 #0000;
+      --tw-inset-ring-color: initial;
+      --tw-inset-ring-shadow: 0 0 #0000;
+      --tw-ring-inset: initial;
+      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-color: #fff;
+      --tw-ring-offset-shadow: 0 0 #0000;
+    }
+  }
+}
+</style></head><body class="" data-new-gr-c-s-check-loaded="14.1248.0" data-gr-ext-installed=""><div hidden=""><!--$--><!--/$--></div><style>
+            /* Loading backgrounds to prevent white flash */
+            body.v0-loading {
+              background-color: white;
+            }
+            
+            /* Dark mode background during load */
+            @media (prefers-color-scheme: dark) {
+              body.v0-loading {
+                background-color: black;
+              }
+            }
+          </style><script src="./v0 Game_files/lite-runtime.js.download"></script><!--$--><style>html {
+  font-family: 'GeistSans', 'GeistSans Fallback';
+  --font-sans: __variable_3a0388;
+  --font-mono: __variable_c1e5c9;
+}</style><style id="default-global-styles" type="text/tailwindcss">
+:root{@property --tw-animation-delay{syntax:"*";inherits:false;initial-value:0s}@property --tw-animation-direction{syntax:"*";inherits:false;initial-value:normal}@property --tw-animation-duration{syntax:"*";inherits:false}@property --tw-animation-fill-mode{syntax:"*";inherits:false;initial-value:none}@property --tw-animation-iteration-count{syntax:"*";inherits:false;initial-value:1}@property --tw-enter-opacity{syntax:"*";inherits:false;initial-value:1}@property --tw-enter-rotate{syntax:"*";inherits:false;initial-value:0}@property --tw-enter-scale{syntax:"*";inherits:false;initial-value:1}@property --tw-enter-translate-x{syntax:"*";inherits:false;initial-value:0}@property --tw-enter-translate-y{syntax:"*";inherits:false;initial-value:0}@property --tw-exit-opacity{syntax:"*";inherits:false;initial-value:1}@property --tw-exit-rotate{syntax:"*";inherits:false;initial-value:0}@property --tw-exit-scale{syntax:"*";inherits:false;initial-value:1}@property --tw-exit-translate-x{syntax:"*";inherits:false;initial-value:0}@property --tw-exit-translate-y{syntax:"*";inherits:false;initial-value:0}}@theme inline{--animation-delay-0:0s;--animation-delay-75:75ms;--animation-delay-100:0.1s;--animation-delay-150:0.15s;--animation-delay-200:0.2s;--animation-delay-300:0.3s;--animation-delay-500:0.5s;--animation-delay-700:0.7s;--animation-delay-1000:1s;--animation-repeat-0:0;--animation-repeat-1:1;--animation-repeat-infinite:infinite;--animation-direction-normal:normal;--animation-direction-reverse:reverse;--animation-direction-alternate:alternate;--animation-direction-alternate-reverse:alternate-reverse;--animation-fill-mode-none:none;--animation-fill-mode-forwards:forwards;--animation-fill-mode-backwards:backwards;--animation-fill-mode-both:both;--percentage-0:0;--percentage-5:0.05;--percentage-10:0.1;--percentage-15:0.15;--percentage-20:0.2;--percentage-25:0.25;--percentage-30:0.3;--percentage-35:0.35;--percentage-40:0.4;--percentage-45:0.45;--percentage-50:0.5;--percentage-55:0.55;--percentage-60:0.6;--percentage-65:0.65;--percentage-70:0.7;--percentage-75:0.75;--percentage-80:0.8;--percentage-85:0.85;--percentage-90:0.9;--percentage-95:0.95;--percentage-100:1;--percentage-translate-full:1;--animate-in:enter var(--tw-animation-duration, var(--tw-duration, 150ms)) var(--tw-ease, ease)
+  var(--tw-animation-delay, 0s) var(--tw-animation-iteration-count, 1)
+  var(--tw-animation-direction, normal) var(--tw-animation-fill-mode, none);--animate-out:exit var(--tw-animation-duration, var(--tw-duration, 150ms)) var(--tw-ease, ease)
+  var(--tw-animation-delay, 0s) var(--tw-animation-iteration-count, 1)
+  var(--tw-animation-direction, normal) var(--tw-animation-fill-mode, none);@keyframes enter{from{opacity:var(--tw-enter-opacity,1);transform:translate3d(var(--tw-enter-translate-x,0),var(--tw-enter-translate-y,0),0) scale3d(var(--tw-enter-scale,1),var(--tw-enter-scale,1),var(--tw-enter-scale,1)) rotate(var(--tw-enter-rotate,0))}}@keyframes exit{to{opacity:var(--tw-exit-opacity,1);transform:translate3d(var(--tw-exit-translate-x,0),var(--tw-exit-translate-y,0),0) scale3d(var(--tw-exit-scale,1),var(--tw-exit-scale,1),var(--tw-exit-scale,1)) rotate(var(--tw-exit-rotate,0))}}--animate-accordion-down:accordion-down var(--tw-animation-duration, var(--tw-duration, 200ms))
+  ease-out;--animate-accordion-up:accordion-up var(--tw-animation-duration, var(--tw-duration, 200ms))
+  ease-out;--animate-collapsible-down:collapsible-down
+  var(--tw-animation-duration, var(--tw-duration, 200ms)) ease-out;--animate-collapsible-up:collapsible-up var(--tw-animation-duration, var(--tw-duration, 200ms))
+  ease-out;@keyframes accordion-down{from{height:0}to{height:var(--radix-accordion-content-height,var(--bits-accordion-content-height,var(--reka-accordion-content-height,var(--kb-accordion-content-height,auto))))}}@keyframes accordion-up{from{height:var(--radix-accordion-content-height,var(--bits-accordion-content-height,var(--reka-accordion-content-height,var(--kb-accordion-content-height,auto))))}to{height:0}}@keyframes collapsible-down{from{height:0}to{height:var(--radix-collapsible-content-height,var(--bits-collapsible-content-height,var(--reka-collapsible-content-height,var(--kb-collapsible-content-height,auto))))}}@keyframes collapsible-up{from{height:var(--radix-collapsible-content-height,var(--bits-collapsible-content-height,var(--reka-collapsible-content-height,var(--kb-collapsible-content-height,auto))))}to{height:0}}--animate-caret-blink:caret-blink 1.25s ease-out infinite;@keyframes caret-blink{0%,70%,100%{opacity:1}20%,50%{opacity:0}}}@utility animation-duration-*{--tw-animation-duration:calc(--value(number) * 1ms);--tw-animation-duration:--value(--animation-duration- *, [duration], "initial", [ *]);animation-duration:calc(--value(number) * 1ms);animation-duration:--value(--animation-duration- *,[duration],"initial",[*])}@utility delay-*{animation-delay:calc(--value(number) * 1ms);animation-delay:--value(--animation-delay- *,[duration],"initial",[*]);--tw-animation-delay:calc(--value(number) * 1ms);--tw-animation-delay:--value(--animation-delay- *, [duration], "initial", [ *])}@utility repeat-*{animation-iteration-count:--value(--animation-repeat- *,number,"initial",[*]);--tw-animation-iteration-count:--value(--animation-repeat- *, number, "initial", [ *])}@utility direction-*{animation-direction:--value(--animation-direction- *,"initial",[*]);--tw-animation-direction:--value(--animation-direction- *, "initial", [ *])}@utility fill-mode-*{animation-fill-mode:--value(--animation-fill-mode- *,"initial",[*]);--tw-animation-fill-mode:--value(--animation-fill-mode- *, "initial", [ *])}@utility running{animation-play-state:running}@utility paused{animation-play-state:paused}@utility play-state-*{animation-play-state:--value("initial",[*])}@utility fade-in{--tw-enter-opacity:0}@utility fade-in-*{--tw-enter-opacity:calc(--value(number) / 100);--tw-enter-opacity:--value(--percentage- *, [ *])}@utility fade-out{--tw-exit-opacity:0}@utility fade-out-*{--tw-exit-opacity:calc(--value(number) / 100);--tw-exit-opacity:--value(--percentage- *, [ *])}@utility zoom-in{--tw-enter-scale:0}@utility zoom-in-*{--tw-enter-scale:calc(--value(number) * 1%);--tw-enter-scale:calc(--value(ratio));--tw-enter-scale:--value(--percentage- *, [ *])}@utility -zoom-in-*{--tw-enter-scale:calc(--value(number) * -1%);--tw-enter-scale:calc(--value(ratio) * -1);--tw-enter-scale:--value(--percentage- *, [ *])}@utility zoom-out{--tw-exit-scale:0}@utility zoom-out-*{--tw-exit-scale:calc(--value(number) * 1%);--tw-exit-scale:calc(--value(ratio));--tw-exit-scale:--value(--percentage- *, [ *])}@utility -zoom-out-*{--tw-exit-scale:calc(--value(number) * -1%);--tw-exit-scale:calc(--value(ratio) * -1);--tw-exit-scale:--value(--percentage- *, [ *])}@utility spin-in{--tw-enter-rotate:30deg}@utility spin-in-*{--tw-enter-rotate:calc(--value(number) * 1deg);--tw-enter-rotate:calc(--value(ratio) * 360deg);--tw-enter-rotate:--value(--rotate- *, [ *])}@utility -spin-in{--tw-enter-rotate:-30deg}@utility -spin-in-*{--tw-enter-rotate:calc(--value(number) * -1deg);--tw-enter-rotate:calc(--value(ratio) * -360deg);--tw-enter-rotate:--value(--rotate- *, [ *])}@utility spin-out{--tw-exit-rotate:30deg}@utility spin-out-*{--tw-exit-rotate:calc(--value(number) * 1deg);--tw-exit-rotate:calc(--value(ratio) * 360deg);--tw-exit-rotate:--value(--rotate- *, [ *])}@utility -spin-out{--tw-exit-rotate:-30deg}@utility -spin-out-*{--tw-exit-rotate:calc(--value(number) * -1deg);--tw-exit-rotate:calc(--value(ratio) * -360deg);--tw-exit-rotate:--value(--rotate- *, [ *])}@utility slide-in-from-top{--tw-enter-translate-y:-100%}@utility slide-in-from-top-*{--tw-enter-translate-y:calc(--value(integer) * var(--spacing) * -1);--tw-enter-translate-y:calc(--value(--percentage- *, --percentage-translate- *) * -100%);--tw-enter-translate-y:calc(--value(ratio) * -100%);--tw-enter-translate-y:calc(--value(--translate- *, [percentage], [length]) * -1)}@utility slide-in-from-bottom{--tw-enter-translate-y:100%}@utility slide-in-from-bottom-*{--tw-enter-translate-y:calc(--value(integer) * var(--spacing));--tw-enter-translate-y:calc(--value(--percentage- *, --percentage-translate- *) * 100%);--tw-enter-translate-y:calc(--value(ratio) * 100%);--tw-enter-translate-y:--value(--translate- *, [percentage], [length])}@utility slide-in-from-left{--tw-enter-translate-x:-100%}@utility slide-in-from-left-*{--tw-enter-translate-x:calc(--value(integer) * var(--spacing) * -1);--tw-enter-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * -100%);--tw-enter-translate-x:calc(--value(ratio) * -100%);--tw-enter-translate-x:calc(--value(--translate- *, [percentage], [length]) * -1)}@utility slide-in-from-right{--tw-enter-translate-x:100%}@utility slide-in-from-right-*{--tw-enter-translate-x:calc(--value(integer) * var(--spacing));--tw-enter-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * 100%);--tw-enter-translate-x:calc(--value(ratio) * 100%);--tw-enter-translate-x:--value(--translate- *, [percentage], [length])}@utility slide-in-from-start{&:dir(ltr){--tw-enter-translate-x:-100%}&:dir(rtl){--tw-enter-translate-x:100%}}@utility slide-in-from-start-*{&:where(:dir(ltr),[dir="ltr"],[dir="ltr"] *){--tw-enter-translate-x:calc(--value(integer) * var(--spacing) * -1);--tw-enter-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * -100%);--tw-enter-translate-x:calc(--value(ratio) * -100%);--tw-enter-translate-x:calc(--value(--translate- *, [percentage], [length]) * -1)}&:where(:dir(rtl),[dir="rtl"],[dir="rtl"] *){--tw-enter-translate-x:calc(--value(integer) * var(--spacing));--tw-enter-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * 100%);--tw-enter-translate-x:calc(--value(ratio) * 100%);--tw-enter-translate-x:--value(--translate- *, [percentage], [length])}}@utility slide-in-from-end{&:dir(ltr){--tw-enter-translate-x:100%}&:dir(rtl){--tw-enter-translate-x:-100%}}@utility slide-in-from-end-*{&:where(:dir(ltr),[dir="ltr"],[dir="ltr"] *){--tw-enter-translate-x:calc(--value(integer) * var(--spacing));--tw-enter-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * 100%);--tw-enter-translate-x:calc(--value(ratio) * 100%);--tw-enter-translate-x:--value(--translate- *, [percentage], [length])}&:where(:dir(rtl),[dir="rtl"],[dir="rtl"] *){--tw-enter-translate-x:calc(--value(integer) * var(--spacing) * -1);--tw-enter-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * -100%);--tw-enter-translate-x:calc(--value(ratio) * -100%);--tw-enter-translate-x:calc(--value(--translate- *, [percentage], [length]) * -1)}}@utility slide-out-to-top{--tw-exit-translate-y:-100%}@utility slide-out-to-top-*{--tw-exit-translate-y:calc(--value(integer) * var(--spacing) * -1);--tw-exit-translate-y:calc(--value(--percentage- *, --percentage-translate- *) * -100%);--tw-exit-translate-y:calc(--value(ratio) * -100%);--tw-exit-translate-y:calc(--value(--translate- *, [percentage], [length]) * -1)}@utility slide-out-to-bottom{--tw-exit-translate-y:100%}@utility slide-out-to-bottom-*{--tw-exit-translate-y:calc(--value(integer) * var(--spacing));--tw-exit-translate-y:calc(--value(--percentage- *, --percentage-translate- *) * 100%);--tw-exit-translate-y:calc(--value(ratio) * 100%);--tw-exit-translate-y:--value(--translate- *, [percentage], [length])}@utility slide-out-to-left{--tw-exit-translate-x:-100%}@utility slide-out-to-left-*{--tw-exit-translate-x:calc(--value(integer) * var(--spacing) * -1);--tw-exit-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * -100%);--tw-exit-translate-x:calc(--value(ratio) * -100%);--tw-exit-translate-x:calc(--value(--translate- *, [percentage], [length]) * -1)}@utility slide-out-to-right{--tw-exit-translate-x:100%}@utility slide-out-to-right-*{--tw-exit-translate-x:calc(--value(integer) * var(--spacing));--tw-exit-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * 100%);--tw-exit-translate-x:calc(--value(ratio) * 100%);--tw-exit-translate-x:--value(--translate- *, [percentage], [length])}@utility slide-out-to-start{&:dir(ltr){--tw-exit-translate-x:-100%}&:dir(rtl){--tw-exit-translate-x:100%}}@utility slide-out-to-start-*{&:where(:dir(ltr),[dir="ltr"],[dir="ltr"] *){--tw-exit-translate-x:calc(--value(integer) * var(--spacing) * -1);--tw-exit-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * -100%);--tw-exit-translate-x:calc(--value(ratio) * -100%);--tw-exit-translate-x:calc(--value(--translate- *, [percentage], [length]) * -1)}&:where(:dir(rtl),[dir="rtl"],[dir="rtl"] *){--tw-exit-translate-x:calc(--value(integer) * var(--spacing));--tw-exit-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * 100%);--tw-exit-translate-x:calc(--value(ratio) * 100%);--tw-exit-translate-x:--value(--translate- *, [percentage], [length])}}@utility slide-out-to-end{&:dir(ltr){--tw-exit-translate-x:100%}&:dir(rtl){--tw-exit-translate-x:-100%}}@utility slide-out-to-end-*{&:where(:dir(ltr),[dir="ltr"],[dir="ltr"] *){--tw-exit-translate-x:calc(--value(integer) * var(--spacing));--tw-exit-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * 100%);--tw-exit-translate-x:calc(--value(ratio) * 100%);--tw-exit-translate-x:--value(--translate- *, [percentage], [length])}&:where(:dir(rtl),[dir="rtl"],[dir="rtl"] *){--tw-exit-translate-x:calc(--value(integer) * var(--spacing) * -1);--tw-exit-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * -100%);--tw-exit-translate-x:calc(--value(ratio) * -100%);--tw-exit-translate-x:calc(--value(--translate- *, [percentage], [length]) * -1)}}
+
+@custom-variant dark (&:is(.dark *));
+ 
+:root {
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --radius: 0.625rem;
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+}
+ 
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.145 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.145 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.985 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.396 0.141 25.723);
+  --destructive-foreground: oklch(0.637 0.237 25.331);
+  --border: oklch(0.269 0 0);
+  --input: oklch(0.269 0 0);
+  --ring: oklch(0.439 0 0);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(0.269 0 0);
+  --sidebar-ring: oklch(0.439 0 0);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+ 
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}</style><script>window.__v0_ts=1755023156049</script><!--$--><!--/$--><main class="min-h-screen bg-slate-50"><div class="container mx-auto px-4 py-8 max-w-4xl"><header class="mb-8 text-center"><h1 class="text-3xl font-bold text-indigo-800 mb-2">Paralegal Pathways: Civil Litigation Challenge</h1><div class="bg-indigo-100 rounded-lg p-2 inline-block"><p class="text-indigo-700 font-medium">Current Stage: Pre-Filing Investigation</p></div></header><div class="bg-white rounded-xl shadow-lg p-6 mb-8"><div class="text-center"><h2 class="text-2xl font-bold text-gray-800 mb-6">Welcome to Paralegal Pathways</h2><div class="mb-8"><p class="text-gray-700 mb-4">You've just been hired as a paralegal at Blackstone &amp; Associates, a civil litigation firm in Philadelphia. Your supervising attorney, Sarah Chen, will guide you through your first case.</p><p class="text-gray-700 mb-4">In this simulation, you'll navigate through all stages of a civil litigation case, making decisions about your responsibilities as a paralegal. Your choices will affect the outcome of the case and your performance evaluation.</p><div class="bg-blue-50 p-4 rounded-lg mb-6"><h3 class="font-bold text-blue-800 mb-2">Game Structure:</h3><ul class="text-left list-disc pl-5 text-blue-700"><li>Progress through 8 stages of civil litigation</li><li>Make decisions about paralegal tasks at each stage</li><li>Earn points for correct professional decisions</li><li>Learn about proper procedures and best practices</li><li>Receive feedback on your choices</li></ul></div></div><div class="mb-8"><h3 class="font-bold text-gray-800 mb-2">Your Case:</h3><p class="text-gray-700">Johnson v. Philadelphia General Hospital - A potential medical malpractice case where the client, Robert Johnson, believes he received negligent care that resulted in complications after surgery.</p></div><div class="mb-8"><h3 class="font-bold text-gray-800 mb-2">Litigation Stages:</h3><div class="grid grid-cols-1 md:grid-cols-2 gap-4"><div class="bg-gray-50 p-3 rounded border border-gray-200"><h4 class="font-semibold text-indigo-700">Pre-Filing Investigation</h4><p class="text-sm text-gray-600">Gather and organize information before filing a lawsuit</p></div><div class="bg-gray-50 p-3 rounded border border-gray-200"><h4 class="font-semibold text-indigo-700">Pleadings Phase</h4><p class="text-sm text-gray-600">Prepare and file initial court documents</p></div><div class="bg-gray-50 p-3 rounded border border-gray-200"><h4 class="font-semibold text-indigo-700">Discovery Process</h4><p class="text-sm text-gray-600">Exchange information between parties through formal procedures</p></div><div class="bg-gray-50 p-3 rounded border border-gray-200"><h4 class="font-semibold text-indigo-700">Pre-Trial Motions</h4><p class="text-sm text-gray-600">Prepare and respond to motions before trial</p></div><div class="bg-gray-50 p-3 rounded border border-gray-200"><h4 class="font-semibold text-indigo-700">Settlement Negotiations</h4><p class="text-sm text-gray-600">Attempt to resolve the case without trial</p></div><div class="bg-gray-50 p-3 rounded border border-gray-200"><h4 class="font-semibold text-indigo-700">Trial Preparation</h4><p class="text-sm text-gray-600">Organize evidence and prepare witnesses for trial</p></div><div class="bg-gray-50 p-3 rounded border border-gray-200"><h4 class="font-semibold text-indigo-700">Trial Proceedings</h4><p class="text-sm text-gray-600">Support attorneys during courtroom proceedings</p></div><div class="bg-gray-50 p-3 rounded border border-gray-200"><h4 class="font-semibold text-indigo-700">Post-Trial Procedures</h4><p class="text-sm text-gray-600">Handle matters after the verdict</p></div></div></div><button class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg transition-colors">Begin Your First Day</button></div></div></div></main><!--$--><!--/$--><!--/$--><script>requestAnimationFrame(function(){$RT=performance.now()});</script><script src="./v0 Game_files/webpack-5eb529f92007c5e8.js.download" id="_R_" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[20515,[],\"\"]\n3:I[36447,[],\"\"]\n8:I[79817,[],\"\"]\na:I[9457,[],\"OutletBoundary\"]\nc:I[56031,[],\"AsyncMetadataOutlet\"]\ne:I[9457,[],\"ViewportBoundary\"]\n10:I[9457,[],\"MetadataBoundary\"]\n11:\"$Sreact.suspense\"\n:HL[\"/_next/static/media/66f30814ff6d7cdf.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/e11418ac562b8ac1-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/5e5c87ba0fcdd97e.css?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"style\"]\n:HL[\"/_next/static/css/8c27ffaabc6186da.css?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"style\"]\n:HL[\"/_next/static/css/56e3b90c5978c1c5.css?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"style\"]\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"33r5TIypZSl-6IyfmobTQ\",\"p\":\"\",\"c\":[\"\",\"?token=\u0026path=%2F\u0026originalHost=preview-paralegal-game-kzmk5x54580tuisgyulo.vusercontent.net\u0026bid=b_MOfenRS64ol\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"(lite)\",{\"children\":[\"render\",{\"children\":[\"next\",{\"children\":[\"__PAGE__?{\\\"token\\\":\\\"\\\",\\\"path\\\":\\\"/\\\",\\\"originalHost\\\":\\\"preview-paralegal-game-kzmk5x54580tuisgyulo.vusercontent.net\\\",\\\"bid\\\":\\\"b_MOfenRS64ol\\\"}\",{}]}]}]},\"$undefined\",\"$undefined\",true]}],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"(lite)\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/5e5c87ba0fcdd97e.css?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/8c27ffaabc6186da.css?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"2\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/56e3b90c5978c1c5.css?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"className\":\"__className_3a0388 __variable_3a0388 __variable_c1e5c9\",\"style\":{\"--font-sans\":\"var(--font-geist-sans)\",\"--font-mono\":\"var(--font-geist-mono)\",\"--font-serif\":\"__fallback\"},\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"suppressHydrationWarning\":true,\"className\":\"v0-loading\",\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"\\n            /* Loading backgrounds to prevent white flash */\\n            body.v0-loading {\\n              background-color: white;\\n            }\\n            \\n            /* Dark mode background during load */\\n            @media (prefers-color-scheme: dark) {\\n              body.v0-loading {\\n                background-color: black;\\n              }\\n            }\\n          \"}}],[\"$\",\"script\",null,{\"src\":\"/assets/lite-runtime.js?v=3\"}],[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":\"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:style\",\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":\"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:1:props:style\",\"children\":404}],[\"$\",\"div\",null,{\"style\":\"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:2:props:style\",\"children\":[\"$\",\"h2\",null,{\"style\":\"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:2:props:children:props:style\",\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}]}]]}],{\"children\":[\"render\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"next\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":\"$L4\",\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",\"$L5\",{},null,false]},[\"$L6\",[],[]],false]},null,false]},null,false]},null,false],\"$L7\",false]],\"m\":\"$undefined\",\"G\":[\"$8\",[]],\"s\":false,\"S\":false}\n"])</script><script>self.__next_f.push([1,"4:[\"$\",\"$L3\",null,{}]\n5:[\"$\",\"$1\",\"c\",{\"children\":[\"$L9\",null,[\"$\",\"$La\",null,{\"children\":[\"$Lb\",[\"$\",\"$Lc\",null,{\"promise\":\"$@d\"}]]}]]}]\n6:null\n7:[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$Le\",null,{\"children\":\"$Lf\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]],[\"$\",\"$L10\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$11\",null,{\"fallback\":null,\"children\":\"$L12\"}]}]}]]}]\nf:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\nb:null\nd:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"v0\"}]],\"error\":null,\"digest\":\"$undefined\"}\n12:\"$d:metadata\"\n"])</script><script>self.__next_f.push([1,"13:I[1874,[\"5322\",\"static/chunks/5322-ffaa51b540d806c4.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"5262\",\"static/chunks/5262-86e938484b26e4a4.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"7770\",\"static/chunks/7770-7b05ee5a6374ee6e.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"1518\",\"static/chunks/1518-231978b0e8d6ce00.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"3717\",\"static/chunks/3717-1fdc82fd4742ab8a.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"5510\",\"static/chunks/5510-d7685aca11327626.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"1559\",\"static/chunks/app/(lite)/render/next/page-720b7eeca355bf04.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\"],\"TailwindVersionSetter\"]\n:HX[\"/assets/tailwind-v4.js?v=1\",{\"fetchPriority\":\"high\"}]\n14:T45d9,"])</script><script>self.__next_f.push([1,"\n:root{@property --tw-animation-delay{syntax:\"*\";inherits:false;initial-value:0s}@property --tw-animation-direction{syntax:\"*\";inherits:false;initial-value:normal}@property --tw-animation-duration{syntax:\"*\";inherits:false}@property --tw-animation-fill-mode{syntax:\"*\";inherits:false;initial-value:none}@property --tw-animation-iteration-count{syntax:\"*\";inherits:false;initial-value:1}@property --tw-enter-opacity{syntax:\"*\";inherits:false;initial-value:1}@property --tw-enter-rotate{syntax:\"*\";inherits:false;initial-value:0}@property --tw-enter-scale{syntax:\"*\";inherits:false;initial-value:1}@property --tw-enter-translate-x{syntax:\"*\";inherits:false;initial-value:0}@property --tw-enter-translate-y{syntax:\"*\";inherits:false;initial-value:0}@property --tw-exit-opacity{syntax:\"*\";inherits:false;initial-value:1}@property --tw-exit-rotate{syntax:\"*\";inherits:false;initial-value:0}@property --tw-exit-scale{syntax:\"*\";inherits:false;initial-value:1}@property --tw-exit-translate-x{syntax:\"*\";inherits:false;initial-value:0}@property --tw-exit-translate-y{syntax:\"*\";inherits:false;initial-value:0}}@theme inline{--animation-delay-0:0s;--animation-delay-75:75ms;--animation-delay-100:0.1s;--animation-delay-150:0.15s;--animation-delay-200:0.2s;--animation-delay-300:0.3s;--animation-delay-500:0.5s;--animation-delay-700:0.7s;--animation-delay-1000:1s;--animation-repeat-0:0;--animation-repeat-1:1;--animation-repeat-infinite:infinite;--animation-direction-normal:normal;--animation-direction-reverse:reverse;--animation-direction-alternate:alternate;--animation-direction-alternate-reverse:alternate-reverse;--animation-fill-mode-none:none;--animation-fill-mode-forwards:forwards;--animation-fill-mode-backwards:backwards;--animation-fill-mode-both:both;--percentage-0:0;--percentage-5:0.05;--percentage-10:0.1;--percentage-15:0.15;--percentage-20:0.2;--percentage-25:0.25;--percentage-30:0.3;--percentage-35:0.35;--percentage-40:0.4;--percentage-45:0.45;--percentage-50:0.5;--percentage-55:0.55;--percentage-60:0.6;--percentage-65:0.65;--percentage-70:0.7;--percentage-75:0.75;--percentage-80:0.8;--percentage-85:0.85;--percentage-90:0.9;--percentage-95:0.95;--percentage-100:1;--percentage-translate-full:1;--animate-in:enter var(--tw-animation-duration, var(--tw-duration, 150ms)) var(--tw-ease, ease)\n  var(--tw-animation-delay, 0s) var(--tw-animation-iteration-count, 1)\n  var(--tw-animation-direction, normal) var(--tw-animation-fill-mode, none);--animate-out:exit var(--tw-animation-duration, var(--tw-duration, 150ms)) var(--tw-ease, ease)\n  var(--tw-animation-delay, 0s) var(--tw-animation-iteration-count, 1)\n  var(--tw-animation-direction, normal) var(--tw-animation-fill-mode, none);@keyframes enter{from{opacity:var(--tw-enter-opacity,1);transform:translate3d(var(--tw-enter-translate-x,0),var(--tw-enter-translate-y,0),0) scale3d(var(--tw-enter-scale,1),var(--tw-enter-scale,1),var(--tw-enter-scale,1)) rotate(var(--tw-enter-rotate,0))}}@keyframes exit{to{opacity:var(--tw-exit-opacity,1);transform:translate3d(var(--tw-exit-translate-x,0),var(--tw-exit-translate-y,0),0) scale3d(var(--tw-exit-scale,1),var(--tw-exit-scale,1),var(--tw-exit-scale,1)) rotate(var(--tw-exit-rotate,0))}}--animate-accordion-down:accordion-down var(--tw-animation-duration, var(--tw-duration, 200ms))\n  ease-out;--animate-accordion-up:accordion-up var(--tw-animation-duration, var(--tw-duration, 200ms))\n  ease-out;--animate-collapsible-down:collapsible-down\n  var(--tw-animation-duration, var(--tw-duration, 200ms)) ease-out;--animate-collapsible-up:collapsible-up var(--tw-animation-duration, var(--tw-duration, 200ms))\n  ease-out;@keyframes accordion-down{from{height:0}to{height:var(--radix-accordion-content-height,var(--bits-accordion-content-height,var(--reka-accordion-content-height,var(--kb-accordion-content-height,auto))))}}@keyframes accordion-up{from{height:var(--radix-accordion-content-height,var(--bits-accordion-content-height,var(--reka-accordion-content-height,var(--kb-accordion-content-height,auto))))}to{height:0}}@keyframes collapsible-down{from{height:0}to{height:var(--radix-collapsible-content-height,var(--bits-collapsible-content-height,var(--reka-collapsible-content-height,var(--kb-collapsible-content-height,auto))))}}@keyframes collapsible-up{from{height:var(--radix-collapsible-content-height,var(--bits-collapsible-content-height,var(--reka-collapsible-content-height,var(--kb-collapsible-content-height,auto))))}to{height:0}}--animate-caret-blink:caret-blink 1.25s ease-out infinite;@keyframes caret-blink{0%,70%,100%{opacity:1}20%,50%{opacity:0}}}@utility animation-duration-*{--tw-animation-duration:calc(--value(number) * 1ms);--tw-animation-duration:--value(--animation-duration- *, [duration], \"initial\", [ *]);animation-duration:calc(--value(number) * 1ms);animation-duration:--value(--animation-duration- *,[duration],\"initial\",[*])}@utility delay-*{animation-delay:calc(--value(number) * 1ms);animation-delay:--value(--animation-delay- *,[duration],\"initial\",[*]);--tw-animation-delay:calc(--value(number) * 1ms);--tw-animation-delay:--value(--animation-delay- *, [duration], \"initial\", [ *])}@utility repeat-*{animation-iteration-count:--value(--animation-repeat- *,number,\"initial\",[*]);--tw-animation-iteration-count:--value(--animation-repeat- *, number, \"initial\", [ *])}@utility direction-*{animation-direction:--value(--animation-direction- *,\"initial\",[*]);--tw-animation-direction:--value(--animation-direction- *, \"initial\", [ *])}@utility fill-mode-*{animation-fill-mode:--value(--animation-fill-mode- *,\"initial\",[*]);--tw-animation-fill-mode:--value(--animation-fill-mode- *, \"initial\", [ *])}@utility running{animation-play-state:running}@utility paused{animation-play-state:paused}@utility play-state-*{animation-play-state:--value(\"initial\",[*])}@utility fade-in{--tw-enter-opacity:0}@utility fade-in-*{--tw-enter-opacity:calc(--value(number) / 100);--tw-enter-opacity:--value(--percentage- *, [ *])}@utility fade-out{--tw-exit-opacity:0}@utility fade-out-*{--tw-exit-opacity:calc(--value(number) / 100);--tw-exit-opacity:--value(--percentage- *, [ *])}@utility zoom-in{--tw-enter-scale:0}@utility zoom-in-*{--tw-enter-scale:calc(--value(number) * 1%);--tw-enter-scale:calc(--value(ratio));--tw-enter-scale:--value(--percentage- *, [ *])}@utility -zoom-in-*{--tw-enter-scale:calc(--value(number) * -1%);--tw-enter-scale:calc(--value(ratio) * -1);--tw-enter-scale:--value(--percentage- *, [ *])}@utility zoom-out{--tw-exit-scale:0}@utility zoom-out-*{--tw-exit-scale:calc(--value(number) * 1%);--tw-exit-scale:calc(--value(ratio));--tw-exit-scale:--value(--percentage- *, [ *])}@utility -zoom-out-*{--tw-exit-scale:calc(--value(number) * -1%);--tw-exit-scale:calc(--value(ratio) * -1);--tw-exit-scale:--value(--percentage- *, [ *])}@utility spin-in{--tw-enter-rotate:30deg}@utility spin-in-*{--tw-enter-rotate:calc(--value(number) * 1deg);--tw-enter-rotate:calc(--value(ratio) * 360deg);--tw-enter-rotate:--value(--rotate- *, [ *])}@utility -spin-in{--tw-enter-rotate:-30deg}@utility -spin-in-*{--tw-enter-rotate:calc(--value(number) * -1deg);--tw-enter-rotate:calc(--value(ratio) * -360deg);--tw-enter-rotate:--value(--rotate- *, [ *])}@utility spin-out{--tw-exit-rotate:30deg}@utility spin-out-*{--tw-exit-rotate:calc(--value(number) * 1deg);--tw-exit-rotate:calc(--value(ratio) * 360deg);--tw-exit-rotate:--value(--rotate- *, [ *])}@utility -spin-out{--tw-exit-rotate:-30deg}@utility -spin-out-*{--tw-exit-rotate:calc(--value(number) * -1deg);--tw-exit-rotate:calc(--value(ratio) * -360deg);--tw-exit-rotate:--value(--rotate- *, [ *])}@utility slide-in-from-top{--tw-enter-translate-y:-100%}@utility slide-in-from-top-*{--tw-enter-translate-y:calc(--value(integer) * var(--spacing) * -1);--tw-enter-translate-y:calc(--value(--percentage- *, --percentage-translate- *) * -100%);--tw-enter-translate-y:calc(--value(ratio) * -100%);--tw-enter-translate-y:calc(--value(--translate- *, [percentage], [length]) * -1)}@utility slide-in-from-bottom{--tw-enter-translate-y:100%}@utility slide-in-from-bottom-*{--tw-enter-translate-y:calc(--value(integer) * var(--spacing));--tw-enter-translate-y:calc(--value(--percentage- *, --percentage-translate- *) * 100%);--tw-enter-translate-y:calc(--value(ratio) * 100%);--tw-enter-translate-y:--value(--translate- *, [percentage], [length])}@utility slide-in-from-left{--tw-enter-translate-x:-100%}@utility slide-in-from-left-*{--tw-enter-translate-x:calc(--value(integer) * var(--spacing) * -1);--tw-enter-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * -100%);--tw-enter-translate-x:calc(--value(ratio) * -100%);--tw-enter-translate-x:calc(--value(--translate- *, [percentage], [length]) * -1)}@utility slide-in-from-right{--tw-enter-translate-x:100%}@utility slide-in-from-right-*{--tw-enter-translate-x:calc(--value(integer) * var(--spacing));--tw-enter-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * 100%);--tw-enter-translate-x:calc(--value(ratio) * 100%);--tw-enter-translate-x:--value(--translate- *, [percentage], [length])}@utility slide-in-from-start{\u0026:dir(ltr){--tw-enter-translate-x:-100%}\u0026:dir(rtl){--tw-enter-translate-x:100%}}@utility slide-in-from-start-*{\u0026:where(:dir(ltr),[dir=\"ltr\"],[dir=\"ltr\"] *){--tw-enter-translate-x:calc(--value(integer) * var(--spacing) * -1);--tw-enter-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * -100%);--tw-enter-translate-x:calc(--value(ratio) * -100%);--tw-enter-translate-x:calc(--value(--translate- *, [percentage], [length]) * -1)}\u0026:where(:dir(rtl),[dir=\"rtl\"],[dir=\"rtl\"] *){--tw-enter-translate-x:calc(--value(integer) * var(--spacing));--tw-enter-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * 100%);--tw-enter-translate-x:calc(--value(ratio) * 100%);--tw-enter-translate-x:--value(--translate- *, [percentage], [length])}}@utility slide-in-from-end{\u0026:dir(ltr){--tw-enter-translate-x:100%}\u0026:dir(rtl){--tw-enter-translate-x:-100%}}@utility slide-in-from-end-*{\u0026:where(:dir(ltr),[dir=\"ltr\"],[dir=\"ltr\"] *){--tw-enter-translate-x:calc(--value(integer) * var(--spacing));--tw-enter-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * 100%);--tw-enter-translate-x:calc(--value(ratio) * 100%);--tw-enter-translate-x:--value(--translate- *, [percentage], [length])}\u0026:where(:dir(rtl),[dir=\"rtl\"],[dir=\"rtl\"] *){--tw-enter-translate-x:calc(--value(integer) * var(--spacing) * -1);--tw-enter-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * -100%);--tw-enter-translate-x:calc(--value(ratio) * -100%);--tw-enter-translate-x:calc(--value(--translate- *, [percentage], [length]) * -1)}}@utility slide-out-to-top{--tw-exit-translate-y:-100%}@utility slide-out-to-top-*{--tw-exit-translate-y:calc(--value(integer) * var(--spacing) * -1);--tw-exit-translate-y:calc(--value(--percentage- *, --percentage-translate- *) * -100%);--tw-exit-translate-y:calc(--value(ratio) * -100%);--tw-exit-translate-y:calc(--value(--translate- *, [percentage], [length]) * -1)}@utility slide-out-to-bottom{--tw-exit-translate-y:100%}@utility slide-out-to-bottom-*{--tw-exit-translate-y:calc(--value(integer) * var(--spacing));--tw-exit-translate-y:calc(--value(--percentage- *, --percentage-translate- *) * 100%);--tw-exit-translate-y:calc(--value(ratio) * 100%);--tw-exit-translate-y:--value(--translate- *, [percentage], [length])}@utility slide-out-to-left{--tw-exit-translate-x:-100%}@utility slide-out-to-left-*{--tw-exit-translate-x:calc(--value(integer) * var(--spacing) * -1);--tw-exit-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * -100%);--tw-exit-translate-x:calc(--value(ratio) * -100%);--tw-exit-translate-x:calc(--value(--translate- *, [percentage], [length]) * -1)}@utility slide-out-to-right{--tw-exit-translate-x:100%}@utility slide-out-to-right-*{--tw-exit-translate-x:calc(--value(integer) * var(--spacing));--tw-exit-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * 100%);--tw-exit-translate-x:calc(--value(ratio) * 100%);--tw-exit-translate-x:--value(--translate- *, [percentage], [length])}@utility slide-out-to-start{\u0026:dir(ltr){--tw-exit-translate-x:-100%}\u0026:dir(rtl){--tw-exit-translate-x:100%}}@utility slide-out-to-start-*{\u0026:where(:dir(ltr),[dir=\"ltr\"],[dir=\"ltr\"] *){--tw-exit-translate-x:calc(--value(integer) * var(--spacing) * -1);--tw-exit-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * -100%);--tw-exit-translate-x:calc(--value(ratio) * -100%);--tw-exit-translate-x:calc(--value(--translate- *, [percentage], [length]) * -1)}\u0026:where(:dir(rtl),[dir=\"rtl\"],[dir=\"rtl\"] *){--tw-exit-translate-x:calc(--value(integer) * var(--spacing));--tw-exit-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * 100%);--tw-exit-translate-x:calc(--value(ratio) * 100%);--tw-exit-translate-x:--value(--translate- *, [percentage], [length])}}@utility slide-out-to-end{\u0026:dir(ltr){--tw-exit-translate-x:100%}\u0026:dir(rtl){--tw-exit-translate-x:-100%}}@utility slide-out-to-end-*{\u0026:where(:dir(ltr),[dir=\"ltr\"],[dir=\"ltr\"] *){--tw-exit-translate-x:calc(--value(integer) * var(--spacing));--tw-exit-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * 100%);--tw-exit-translate-x:calc(--value(ratio) * 100%);--tw-exit-translate-x:--value(--translate- *, [percentage], [length])}\u0026:where(:dir(rtl),[dir=\"rtl\"],[dir=\"rtl\"] *){--tw-exit-translate-x:calc(--value(integer) * var(--spacing) * -1);--tw-exit-translate-x:calc(--value(--percentage- *, --percentage-translate- *) * -100%);--tw-exit-translate-x:calc(--value(ratio) * -100%);--tw-exit-translate-x:calc(--value(--translate- *, [percentage], [length]) * -1)}}\n\n@custom-variant dark (\u0026:is(.dark *));\n \n:root {\n  --background: oklch(1 0 0);\n  --foreground: oklch(0.145 0 0);\n  --card: oklch(1 0 0);\n  --card-foreground: oklch(0.145 0 0);\n  --popover: oklch(1 0 0);\n  --popover-foreground: oklch(0.145 0 0);\n  --primary: oklch(0.205 0 0);\n  --primary-foreground: oklch(0.985 0 0);\n  --secondary: oklch(0.97 0 0);\n  --secondary-foreground: oklch(0.205 0 0);\n  --muted: oklch(0.97 0 0);\n  --muted-foreground: oklch(0.556 0 0);\n  --accent: oklch(0.97 0 0);\n  --accent-foreground: oklch(0.205 0 0);\n  --destructive: oklch(0.577 0.245 27.325);\n  --destructive-foreground: oklch(0.577 0.245 27.325);\n  --border: oklch(0.922 0 0);\n  --input: oklch(0.922 0 0);\n  --ring: oklch(0.708 0 0);\n  --chart-1: oklch(0.646 0.222 41.116);\n  --chart-2: oklch(0.6 0.118 184.704);\n  --chart-3: oklch(0.398 0.07 227.392);\n  --chart-4: oklch(0.828 0.189 84.429);\n  --chart-5: oklch(0.769 0.188 70.08);\n  --radius: 0.625rem;\n  --sidebar: oklch(0.985 0 0);\n  --sidebar-foreground: oklch(0.145 0 0);\n  --sidebar-primary: oklch(0.205 0 0);\n  --sidebar-primary-foreground: oklch(0.985 0 0);\n  --sidebar-accent: oklch(0.97 0 0);\n  --sidebar-accent-foreground: oklch(0.205 0 0);\n  --sidebar-border: oklch(0.922 0 0);\n  --sidebar-ring: oklch(0.708 0 0);\n}\n \n.dark {\n  --background: oklch(0.145 0 0);\n  --foreground: oklch(0.985 0 0);\n  --card: oklch(0.145 0 0);\n  --card-foreground: oklch(0.985 0 0);\n  --popover: oklch(0.145 0 0);\n  --popover-foreground: oklch(0.985 0 0);\n  --primary: oklch(0.985 0 0);\n  --primary-foreground: oklch(0.205 0 0);\n  --secondary: oklch(0.269 0 0);\n  --secondary-foreground: oklch(0.985 0 0);\n  --muted: oklch(0.269 0 0);\n  --muted-foreground: oklch(0.708 0 0);\n  --accent: oklch(0.269 0 0);\n  --accent-foreground: oklch(0.985 0 0);\n  --destructive: oklch(0.396 0.141 25.723);\n  --destructive-foreground: oklch(0.637 0.237 25.331);\n  --border: oklch(0.269 0 0);\n  --input: oklch(0.269 0 0);\n  --ring: oklch(0.439 0 0);\n  --chart-1: oklch(0.488 0.243 264.376);\n  --chart-2: oklch(0.696 0.17 162.48);\n  --chart-3: oklch(0.769 0.188 70.08);\n  --chart-4: oklch(0.627 0.265 303.9);\n  --chart-5: oklch(0.645 0.246 16.439);\n  --sidebar: oklch(0.205 0 0);\n  --sidebar-foreground: oklch(0.985 0 0);\n  --sidebar-primary: oklch(0.488 0.243 264.376);\n  --sidebar-primary-foreground: oklch(0.985 0 0);\n  --sidebar-accent: oklch(0.269 0 0);\n  --sidebar-accent-foreground: oklch(0.985 0 0);\n  --sidebar-border: oklch(0.269 0 0);\n  --sidebar-ring: oklch(0.439 0 0);\n}\n\n@theme inline {\n  --color-background: var(--background);\n  --color-foreground: var(--foreground);\n  --color-card: var(--card);\n  --color-card-foreground: var(--card-foreground);\n  --color-popover: var(--popover);\n  --color-popover-foreground: var(--popover-foreground);\n  --color-primary: var(--primary);\n  --color-primary-foreground: var(--primary-foreground);\n  --color-secondary: var(--secondary);\n  --color-secondary-foreground: var(--secondary-foreground);\n  --color-muted: var(--muted);\n  --color-muted-foreground: var(--muted-foreground);\n  --color-accent: var(--accent);\n  --color-accent-foreground: var(--accent-foreground);\n  --color-destructive: var(--destructive);\n  --color-destructive-foreground: var(--destructive-foreground);\n  --color-border: var(--border);\n  --color-input: var(--input);\n  --color-ring: var(--ring);\n  --color-chart-1: var(--chart-1);\n  --color-chart-2: var(--chart-2);\n  --color-chart-3: var(--chart-3);\n  --color-chart-4: var(--chart-4);\n  --color-chart-5: var(--chart-5);\n  --radius-sm: calc(var(--radius) - 4px);\n  --radius-md: calc(var(--radius) - 2px);\n  --radius-lg: var(--radius);\n  --radius-xl: calc(var(--radius) + 4px);\n  --color-sidebar: var(--sidebar);\n  --color-sidebar-foreground: var(--sidebar-foreground);\n  --color-sidebar-primary: var(--sidebar-primary);\n  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);\n  --color-sidebar-accent: var(--sidebar-accent);\n  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);\n  --color-sidebar-border: var(--sidebar-border);\n  --color-sidebar-ring: var(--sidebar-ring);\n}\n \n@layer base {\n  * {\n    @apply border-border outline-ring/50;\n  }\n  body {\n    @apply bg-background text-foreground;\n  }\n}"])</script><script>self.__next_f.push([1,"9:[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"html {\\n  font-family: 'GeistSans', 'GeistSans Fallback';\\n  --font-sans: __variable_3a0388;\\n  --font-mono: __variable_c1e5c9;\\n}\"}}],[[\"$\",\"$L13\",null,{\"version\":4}],[\"$\",\"style\",null,{\"id\":\"default-global-styles\",\"type\":\"text/tailwindcss\",\"dangerouslySetInnerHTML\":{\"__html\":\"$14\"}}]],\"$L15\",\"$L16\",\"$L17\"]\n"])</script><script>self.__next_f.push([1,"18:I[94090,[\"5322\",\"static/chunks/5322-ffaa51b540d806c4.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"5262\",\"static/chunks/5262-86e938484b26e4a4.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"7770\",\"static/chunks/7770-7b05ee5a6374ee6e.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"1518\",\"static/chunks/1518-231978b0e8d6ce00.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"3717\",\"static/chunks/3717-1fdc82fd4742ab8a.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"5510\",\"static/chunks/5510-d7685aca11327626.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"1559\",\"static/chunks/app/(lite)/render/next/page-720b7eeca355bf04.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\"],\"MissingEnvs\"]\n1a:I[46008,[\"5322\",\"static/chunks/5322-ffaa51b540d806c4.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"5262\",\"static/chunks/5262-86e938484b26e4a4.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"7770\",\"static/chunks/7770-7b05ee5a6374ee6e.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"1518\",\"static/chunks/1518-231978b0e8d6ce00.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"3717\",\"static/chunks/3717-1fdc82fd4742ab8a.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"5510\",\"static/chunks/5510-d7685aca11327626.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\",\"1559\",\"static/chunks/app/(lite)/render/next/page-720b7eeca355bf04.js?dpl=dpl_DkZuQd3miB7zXiuMC8HLj5Kcyeet\"],\"ClientEntryWrapper\"]\n15:[\"$\",\"script\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"window.__v0_ts=1755023156049\"}}]\n16:[\"$\",\"$11\",null,{\"children\":[\"$\",\"$L18\",null,{\"namesPromise\":\"$@19\",\"show\":true}]}]\n1b:{\"id\":\"40430de02adc5f3648dc9427f86f5927107ac5bd7a\",\"bound\":null}\n1c:Tc95,"])</script><script>self.__next_f.push([1,"\"use client\"\n\nimport type React from \"react\"\nimport { createContext, useContext, useState } from \"react\"\nimport { gameScenarios } from \"@/lib/game-scenarios\"\nimport type { GameStage, GameScenario, PlayerChoice, GameState } from \"@/lib/types\"\n\ninterface GameContextType {\n  gameState: GameState\n  currentScenario: GameScenario | null\n  playerScore: number\n  playerChoices: PlayerChoice[]\n  currentStage: GameStage\n  makeChoice: (choiceId: string) =\u003e void\n  advanceStage: () =\u003e void\n  restartGame: () =\u003e void\n}\n\nconst GameContext = createContext\u003cGameContextType | undefined\u003e(undefined)\n\nexport function GameProvider({ children }: { children: React.ReactNode }) {\n  const [gameState, setGameState] = useState\u003cGameState\u003e(\"intro\")\n  const [currentStage, setCurrentStage] = useState\u003cGameStage\u003e(\"pre-filing\")\n  const [currentScenarioIndex, setCurrentScenarioIndex] = useState(0)\n  const [playerScore, setPlayerScore] = useState(0)\n  const [playerChoices, setPlayerChoices] = useState\u003cPlayerChoice[]\u003e([])\n\n  // Filter scenarios for current stage\n  const currentStageScenarios = gameScenarios.filter((scenario) =\u003e scenario.stage === currentStage)\n\n  const currentScenario = currentStageScenarios[currentScenarioIndex] || null\n\n  const makeChoice = (choiceId: string) =\u003e {\n    if (!currentScenario) return\n\n    const choice = currentScenario.choices.find((c) =\u003e c.id === choiceId)\n    if (!choice) return\n\n    // Record player's choice\n    setPlayerChoices((prev) =\u003e [\n      ...prev,\n      {\n        scenarioId: currentScenario.id,\n        choiceId,\n        isCorrect: choice.isCorrect,\n        points: choice.points,\n        feedback: choice.feedback,\n      },\n    ])\n\n    // Update score\n    setPlayerScore((prev) =\u003e prev + choice.points)\n\n    // Move to next scenario in current stage\n    if (currentScenarioIndex \u003c currentStageScenarios.length - 1) {\n      setCurrentScenarioIndex((prev) =\u003e prev + 1)\n    } else {\n      // If no more scenarios in this stage, show stage completion\n      setGameState(\"stage-complete\")\n    }\n  }\n\n  const advanceStage = () =\u003e {\n    const stages: GameStage[] = [\n      \"pre-filing\",\n      \"pleadings\",\n      \"discovery\",\n      \"pre-trial\",\n      \"settlement\",\n      \"trial-prep\",\n      \"trial\",\n      \"post-trial\",\n    ]\n\n    const currentIndex = stages.indexOf(currentStage)\n\n    if (currentIndex \u003c stages.length - 1) {\n      // Move to next stage\n      setCurrentStage(stages[currentIndex + 1])\n      setCurrentScenarioIndex(0)\n      setGameState(\"playing\")\n    } else {\n      // Game complete\n      setGameState(\"complete\")\n    }\n  }\n\n  const restartGame = () =\u003e {\n    setGameState(\"intro\")\n    setCurrentStage(\"pre-filing\")\n    setCurrentScenarioIndex(0)\n    setPlayerScore(0)\n    setPlayerChoices([])\n  }\n\n  return (\n    \u003cGameContext.Provider\n      value={{\n        gameState,\n        currentScenario,\n        playerScore,\n        playerChoices,\n        currentStage,\n        makeChoice,\n        advanceStage,\n        restartGame,\n      }}\n    \u003e\n      {children}\n    \u003c/GameContext.Provider\u003e\n  )\n}\n\nexport const useGame = () =\u003e {\n  const context = useContext(GameContext)\n  if (context === undefined) {\n    throw new Error(\"useGame must be used within a GameProvider\")\n  }\n  return context\n}\n"])</script><script>self.__next_f.push([1,"1d:T4b5,"])</script><script>self.__next_f.push([1,"\"use client\"\n\nimport { useGame } from \"./game-provider\"\nimport IntroScreen from \"./screens/intro-screen\"\nimport PlayingScreen from \"./screens/playing-screen\"\nimport StageCompleteScreen from \"./screens/stage-complete-screen\"\nimport GameCompleteScreen from \"./screens/game-complete-screen\"\nimport { stageInfo } from \"@/lib/stage-info\"\n\nexport default function GameInterface() {\n  const { gameState, currentStage } = useGame()\n\n  return (\n    \u003cdiv className=\"container mx-auto px-4 py-8 max-w-4xl\"\u003e\n      \u003cheader className=\"mb-8 text-center\"\u003e\n        \u003ch1 className=\"text-3xl font-bold text-indigo-800 mb-2\"\u003eParalegal Pathways: Civil Litigation Challenge\u003c/h1\u003e\n        \u003cdiv className=\"bg-indigo-100 rounded-lg p-2 inline-block\"\u003e\n          \u003cp className=\"text-indigo-700 font-medium\"\u003eCurrent Stage: {stageInfo[currentStage]?.title || currentStage}\u003c/p\u003e\n        \u003c/div\u003e\n      \u003c/header\u003e\n\n      \u003cdiv className=\"bg-white rounded-xl shadow-lg p-6 mb-8\"\u003e\n        {gameState === \"intro\" \u0026\u0026 \u003cIntroScreen /\u003e}\n        {gameState === \"playing\" \u0026\u0026 \u003cPlayingScreen /\u003e}\n        {gameState === \"stage-complete\" \u0026\u0026 \u003cStageCompleteScreen /\u003e}\n        {gameState === \"complete\" \u0026\u0026 \u003cGameCompleteScreen /\u003e}\n      \u003c/div\u003e\n    \u003c/div\u003e\n  )\n}\n"])</script><script>self.__next_f.push([1,"1e:Ta55,"])</script><script>self.__next_f.push([1,"\"use client\"\n\nimport { useGame } from \"../game-provider\"\nimport { stageInfo } from \"@/lib/stage-info\"\n\nexport default function IntroScreen() {\n  const { advanceStage } = useGame()\n\n  return (\n    \u003cdiv className=\"text-center\"\u003e\n      \u003ch2 className=\"text-2xl font-bold text-gray-800 mb-6\"\u003eWelcome to Paralegal Pathways\u003c/h2\u003e\n\n      \u003cdiv className=\"mb-8\"\u003e\n        \u003cp className=\"text-gray-700 mb-4\"\u003e\n          You've just been hired as a paralegal at Blackstone \u0026 Associates, a civil litigation firm in Philadelphia.\n          Your supervising attorney, Sarah Chen, will guide you through your first case.\n        \u003c/p\u003e\n\n        \u003cp className=\"text-gray-700 mb-4\"\u003e\n          In this simulation, you'll navigate through all stages of a civil litigation case, making decisions about your\n          responsibilities as a paralegal. Your choices will affect the outcome of the case and your performance\n          evaluation.\n        \u003c/p\u003e\n\n        \u003cdiv className=\"bg-blue-50 p-4 rounded-lg mb-6\"\u003e\n          \u003ch3 className=\"font-bold text-blue-800 mb-2\"\u003eGame Structure:\u003c/h3\u003e\n          \u003cul className=\"text-left list-disc pl-5 text-blue-700\"\u003e\n            \u003cli\u003eProgress through 8 stages of civil litigation\u003c/li\u003e\n            \u003cli\u003eMake decisions about paralegal tasks at each stage\u003c/li\u003e\n            \u003cli\u003eEarn points for correct professional decisions\u003c/li\u003e\n            \u003cli\u003eLearn about proper procedures and best practices\u003c/li\u003e\n            \u003cli\u003eReceive feedback on your choices\u003c/li\u003e\n          \u003c/ul\u003e\n        \u003c/div\u003e\n      \u003c/div\u003e\n\n      \u003cdiv className=\"mb-8\"\u003e\n        \u003ch3 className=\"font-bold text-gray-800 mb-2\"\u003eYour Case:\u003c/h3\u003e\n        \u003cp className=\"text-gray-700\"\u003e\n          Johnson v. Philadelphia General Hospital - A potential medical malpractice case where the client, Robert\n          Johnson, believes he received negligent care that resulted in complications after surgery.\n        \u003c/p\u003e\n      \u003c/div\u003e\n\n      \u003cdiv className=\"mb-8\"\u003e\n        \u003ch3 className=\"font-bold text-gray-800 mb-2\"\u003eLitigation Stages:\u003c/h3\u003e\n        \u003cdiv className=\"grid grid-cols-1 md:grid-cols-2 gap-4\"\u003e\n          {Object.entries(stageInfo).map(([key, info]) =\u003e (\n            \u003cdiv key={key} className=\"bg-gray-50 p-3 rounded border border-gray-200\"\u003e\n              \u003ch4 className=\"font-semibold text-indigo-700\"\u003e{info.title}\u003c/h4\u003e\n              \u003cp className=\"text-sm text-gray-600\"\u003e{info.shortDescription}\u003c/p\u003e\n            \u003c/div\u003e\n          ))}\n        \u003c/div\u003e\n      \u003c/div\u003e\n\n      \u003cbutton\n        onClick={advanceStage}\n        className=\"bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg transition-colors\"\n      \u003e\n        Begin Your First Day\n      \u003c/button\u003e\n    \u003c/div\u003e\n  )\n}\n"])</script><script>self.__next_f.push([1,"1f:Tfaa,"])</script><script>self.__next_f.push([1,"\"use client\"\n\nimport { useGame } from \"../game-provider\"\nimport { stageInfo } from \"@/lib/stage-info\"\nimport { useState } from \"react\"\n\nexport default function PlayingScreen() {\n  const { currentScenario, makeChoice, playerChoices } = useGame()\n  const [showHint, setShowHint] = useState(false)\n  const [selectedChoice, setSelectedChoice] = useState\u003cstring | null\u003e(null)\n\n  if (!currentScenario) return \u003cdiv\u003eLoading scenario...\u003c/div\u003e\n\n  // Check if player already made a choice for this scenario\n  const existingChoice = playerChoices.find((choice) =\u003e choice.scenarioId === currentScenario.id)\n\n  const handleChoiceClick = (choiceId: string) =\u003e {\n    setSelectedChoice(choiceId)\n    // Short delay to show selection before proceeding\n    setTimeout(() =\u003e {\n      makeChoice(choiceId)\n      setSelectedChoice(null)\n      setShowHint(false)\n    }, 500)\n  }\n\n  return (\n    \u003cdiv\u003e\n      \u003cdiv className=\"mb-6\"\u003e\n        \u003cdiv className=\"flex items-center mb-4\"\u003e\n          \u003cdiv className=\"w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center mr-3\"\u003e\n            \u003cspan className=\"text-indigo-700 font-bold\"\u003e{currentScenario.icon || \"📝\"}\u003c/span\u003e\n          \u003c/div\u003e\n          \u003ch2 className=\"text-xl font-bold text-gray-800\"\u003e{currentScenario.title}\u003c/h2\u003e\n        \u003c/div\u003e\n\n        \u003cdiv className=\"bg-gray-50 p-4 rounded-lg mb-4\"\u003e\n          \u003cp className=\"text-gray-700\"\u003e{currentScenario.description}\u003c/p\u003e\n\n          {currentScenario.attorneyGuidance \u0026\u0026 (\n            \u003cdiv className=\"mt-4 border-l-4 border-blue-500 pl-4 italic text-gray-600\"\u003e\n              \u003cp\u003e\n                \u003cspan className=\"font-semibold text-blue-700\"\u003eAttorney Sarah Chen:\u003c/span\u003e \"\n                {currentScenario.attorneyGuidance}\"\n              \u003c/p\u003e\n            \u003c/div\u003e\n          )}\n        \u003c/div\u003e\n\n        \u003cdiv className=\"mb-6\"\u003e\n          \u003ch3 className=\"font-bold text-gray-800 mb-3\"\u003eWhat would you do?\u003c/h3\u003e\n          \u003cdiv className=\"space-y-3\"\u003e\n            {currentScenario.choices.map((choice) =\u003e {\n              const isSelected = selectedChoice === choice.id\n\n              return (\n                \u003cbutton\n                  key={choice.id}\n                  onClick={() =\u003e handleChoiceClick(choice.id)}\n                  className={`w-full text-left p-4 rounded-lg border transition-all ${\n                    isSelected\n                      ? \"bg-indigo-100 border-indigo-500\"\n                      : \"bg-white border-gray-200 hover:border-indigo-300 hover:bg-indigo-50\"\n                  }`}\n                \u003e\n                  \u003cp className=\"font-medium\"\u003e{choice.text}\u003c/p\u003e\n                \u003c/button\u003e\n              )\n            })}\n          \u003c/div\u003e\n        \u003c/div\u003e\n\n        \u003cdiv className=\"flex justify-between items-center\"\u003e\n          \u003cbutton\n            onClick={() =\u003e setShowHint(!showHint)}\n            className=\"text-indigo-600 hover:text-indigo-800 text-sm font-medium flex items-center\"\n          \u003e\n            \u003cspan className=\"mr-1\"\u003e{showHint ? \"Hide Hint\" : \"Show Hint\"}\u003c/span\u003e\n            \u003csvg\n              xmlns=\"http://www.w3.org/2000/svg\"\n              width=\"16\"\n              height=\"16\"\n              viewBox=\"0 0 24 24\"\n              fill=\"none\"\n              stroke=\"currentColor\"\n              strokeWidth=\"2\"\n              strokeLinecap=\"round\"\n              strokeLinejoin=\"round\"\n            \u003e\n              \u003ccircle cx=\"12\" cy=\"12\" r=\"10\"\u003e\u003c/circle\u003e\n              \u003cpath d=\"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3\"\u003e\u003c/path\u003e\n              \u003cline x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"\u003e\u003c/line\u003e\n            \u003c/svg\u003e\n          \u003c/button\u003e\n\n          \u003cdiv className=\"text-sm text-gray-500\"\u003e\n            Scenario {currentScenario.id} | {stageInfo[currentScenario.stage].title}\n          \u003c/div\u003e\n        \u003c/div\u003e\n\n        {showHint \u0026\u0026 (\n          \u003cdiv className=\"mt-4 bg-yellow-50 p-3 rounded-lg border border-yellow-200\"\u003e\n            \u003cp className=\"text-sm text-yellow-800\"\u003e\n              \u003cspan className=\"font-semibold\"\u003eHint:\u003c/span\u003e {currentScenario.hint}\n            \u003c/p\u003e\n          \u003c/div\u003e\n        )}\n      \u003c/div\u003e\n    \u003c/div\u003e\n  )\n}\n"])</script><script>self.__next_f.push([1,"20:T1809,"])</script><script>self.__next_f.push([1,"\"use client\"\n\nimport { useGame } from \"../game-provider\"\nimport { stageInfo } from \"@/lib/stage-info\"\n\nexport default function StageCompleteScreen() {\n  const { currentStage, advanceStage, playerChoices, playerScore } = useGame()\n\n  // Get only choices from current stage\n  const stageChoices = playerChoices.filter((choice) =\u003e {\n    // This is a simplification - in a real app, you'd have a more robust way to filter\n    return choice.scenarioId.startsWith(currentStage)\n  })\n\n  const correctChoices = stageChoices.filter((choice) =\u003e choice.isCorrect)\n  const stageScore = stageChoices.reduce((sum, choice) =\u003e sum + choice.points, 0)\n\n  const currentStageInfo = stageInfo[currentStage]\n  const nextStageInfo = getNextStageInfo(currentStage)\n\n  return (\n    \u003cdiv\u003e\n      \u003cdiv className=\"text-center mb-8\"\u003e\n        \u003cdiv className=\"inline-block p-3 rounded-full bg-green-100 mb-4\"\u003e\n          \u003csvg\n            xmlns=\"http://www.w3.org/2000/svg\"\n            className=\"h-10 w-10 text-green-600\"\n            fill=\"none\"\n            viewBox=\"0 0 24 24\"\n            stroke=\"currentColor\"\n          \u003e\n            \u003cpath strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth={2} d=\"M5 13l4 4L19 7\" /\u003e\n          \u003c/svg\u003e\n        \u003c/div\u003e\n        \u003ch2 className=\"text-2xl font-bold text-gray-800 mb-2\"\u003eStage Complete: {currentStageInfo.title}\u003c/h2\u003e\n        \u003cp className=\"text-gray-600\"\u003eYou've completed this stage of the litigation process!\u003c/p\u003e\n      \u003c/div\u003e\n\n      \u003cdiv className=\"grid grid-cols-1 md:grid-cols-2 gap-6 mb-8\"\u003e\n        \u003cdiv className=\"bg-white rounded-lg border border-gray-200 p-4\"\u003e\n          \u003ch3 className=\"font-bold text-gray-800 mb-3\"\u003eYour Performance\u003c/h3\u003e\n          \u003cdiv className=\"space-y-2\"\u003e\n            \u003cdiv className=\"flex justify-between items-center\"\u003e\n              \u003cspan className=\"text-gray-600\"\u003eCorrect Decisions:\u003c/span\u003e\n              \u003cspan className=\"font-medium\"\u003e\n                {correctChoices.length} of {stageChoices.length}\n              \u003c/span\u003e\n            \u003c/div\u003e\n            \u003cdiv className=\"flex justify-between items-center\"\u003e\n              \u003cspan className=\"text-gray-600\"\u003eStage Points:\u003c/span\u003e\n              \u003cspan className=\"font-medium text-green-600\"\u003e+{stageScore}\u003c/span\u003e\n            \u003c/div\u003e\n            \u003cdiv className=\"flex justify-between items-center\"\u003e\n              \u003cspan className=\"text-gray-600\"\u003eTotal Score:\u003c/span\u003e\n              \u003cspan className=\"font-bold\"\u003e{playerScore}\u003c/span\u003e\n            \u003c/div\u003e\n          \u003c/div\u003e\n        \u003c/div\u003e\n\n        \u003cdiv className=\"bg-indigo-50 rounded-lg p-4\"\u003e\n          \u003ch3 className=\"font-bold text-indigo-800 mb-3\"\u003eKey Takeaways\u003c/h3\u003e\n          \u003cul className=\"space-y-2 text-indigo-700\"\u003e\n            {currentStageInfo.keyTakeaways.map((takeaway, index) =\u003e (\n              \u003cli key={index} className=\"flex items-start\"\u003e\n                \u003cspan className=\"mr-2\"\u003e•\u003c/span\u003e\n                \u003cspan\u003e{takeaway}\u003c/span\u003e\n              \u003c/li\u003e\n            ))}\n          \u003c/ul\u003e\n        \u003c/div\u003e\n      \u003c/div\u003e\n\n      \u003cdiv className=\"bg-gray-50 rounded-lg p-4 mb-8\"\u003e\n        \u003ch3 className=\"font-bold text-gray-800 mb-3\"\u003eFeedback on Your Choices\u003c/h3\u003e\n        \u003cdiv className=\"space-y-3\"\u003e\n          {stageChoices.map((choice, index) =\u003e (\n            \u003cdiv\n              key={index}\n              className={`p-3 rounded-lg ${\n                choice.isCorrect ? \"bg-green-50 border border-green-200\" : \"bg-red-50 border border-red-200\"\n              }`}\n            \u003e\n              \u003cdiv className=\"flex items-center mb-1\"\u003e\n                {choice.isCorrect ? (\n                  \u003csvg\n                    xmlns=\"http://www.w3.org/2000/svg\"\n                    className=\"h-5 w-5 text-green-500 mr-2\"\n                    viewBox=\"0 0 20 20\"\n                    fill=\"currentColor\"\n                  \u003e\n                    \u003cpath\n                      fillRule=\"evenodd\"\n                      d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\"\n                      clipRule=\"evenodd\"\n                    /\u003e\n                  \u003c/svg\u003e\n                ) : (\n                  \u003csvg\n                    xmlns=\"http://www.w3.org/2000/svg\"\n                    className=\"h-5 w-5 text-red-500 mr-2\"\n                    viewBox=\"0 0 20 20\"\n                    fill=\"currentColor\"\n                  \u003e\n                    \u003cpath\n                      fillRule=\"evenodd\"\n                      d=\"M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z\"\n                      clipRule=\"evenodd\"\n                    /\u003e\n                  \u003c/svg\u003e\n                )}\n                \u003cspan className={`font-medium ${choice.isCorrect ? \"text-green-800\" : \"text-red-800\"}`}\u003e\n                  {choice.isCorrect ? \"Good choice\" : \"Could improve\"}\n                \u003c/span\u003e\n              \u003c/div\u003e\n              \u003cp className={choice.isCorrect ? \"text-green-700\" : \"text-red-700\"}\u003e{choice.feedback}\u003c/p\u003e\n            \u003c/div\u003e\n          ))}\n        \u003c/div\u003e\n      \u003c/div\u003e\n\n      \u003cdiv className=\"bg-blue-50 rounded-lg p-4 mb-8\"\u003e\n        \u003ch3 className=\"font-bold text-blue-800 mb-2\"\u003eComing Up Next: {nextStageInfo?.title || \"Game Complete\"}\u003c/h3\u003e\n        {nextStageInfo \u0026\u0026 \u003cp className=\"text-blue-700\"\u003e{nextStageInfo.shortDescription}\u003c/p\u003e}\n      \u003c/div\u003e\n\n      \u003cdiv className=\"text-center\"\u003e\n        \u003cbutton\n          onClick={advanceStage}\n          className=\"bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg transition-colors\"\n        \u003e\n          {nextStageInfo ? \"Continue to Next Stage\" : \"Complete Game\"}\n        \u003c/button\u003e\n      \u003c/div\u003e\n    \u003c/div\u003e\n  )\n}\n\nfunction getNextStageInfo(currentStage: string) {\n  const stages: string[] = [\n    \"pre-filing\",\n    \"pleadings\",\n    \"discovery\",\n    \"pre-trial\",\n    \"settlement\",\n    \"trial-prep\",\n    \"trial\",\n    \"post-trial\",\n  ]\n\n  const currentIndex = stages.indexOf(currentStage)\n  if (currentIndex \u003c stages.length - 1) {\n    const nextStage = stages[currentIndex + 1] as keyof typeof stageInfo\n    return stageInfo[nextStage]\n  }\n\n  return null\n}\n"])</script><script>self.__next_f.push([1,"21:T1196,"])</script><script>self.__next_f.push([1,"\"use client\"\n\nimport { useGame } from \"../game-provider\"\n\nexport default function GameCompleteScreen() {\n  const { playerScore, playerChoices, restartGame } = useGame()\n\n  const totalScenarios = playerChoices.length\n  const correctChoices = playerChoices.filter((choice) =\u003e choice.isCorrect).length\n  const percentageCorrect = Math.round((correctChoices / totalScenarios) * 100)\n\n  // Determine performance level\n  let performanceLevel = \"Novice Paralegal\"\n  let performanceColor = \"text-yellow-600\"\n\n  if (percentageCorrect \u003e= 90) {\n    performanceLevel = \"Expert Paralegal\"\n    performanceColor = \"text-green-600\"\n  } else if (percentageCorrect \u003e= 75) {\n    performanceLevel = \"Senior Paralegal\"\n    performanceColor = \"text-blue-600\"\n  } else if (percentageCorrect \u003e= 60) {\n    performanceLevel = \"Intermediate Paralegal\"\n    performanceColor = \"text-indigo-600\"\n  }\n\n  return (\n    \u003cdiv\u003e\n      \u003cdiv className=\"text-center mb-8\"\u003e\n        \u003cdiv className=\"inline-block p-4 rounded-full bg-indigo-100 mb-4\"\u003e\n          \u003csvg\n            xmlns=\"http://www.w3.org/2000/svg\"\n            className=\"h-12 w-12 text-indigo-600\"\n            fill=\"none\"\n            viewBox=\"0 0 24 24\"\n            stroke=\"currentColor\"\n          \u003e\n            \u003cpath\n              strokeLinecap=\"round\"\n              strokeLinejoin=\"round\"\n              strokeWidth={2}\n              d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"\n            /\u003e\n          \u003c/svg\u003e\n        \u003c/div\u003e\n        \u003ch2 className=\"text-2xl font-bold text-gray-800 mb-2\"\u003eCongratulations! Case Complete\u003c/h2\u003e\n        \u003cp className=\"text-gray-600 mb-4\"\u003e\n          You've successfully navigated through all stages of the civil litigation process.\n        \u003c/p\u003e\n\n        \u003cdiv className=\"inline-block bg-gray-50 rounded-lg p-4 mb-6\"\u003e\n          \u003cdiv className=\"text-4xl font-bold mb-1\"\u003e{playerScore}\u003c/div\u003e\n          \u003cdiv className=\"text-gray-500\"\u003eTotal Points\u003c/div\u003e\n        \u003c/div\u003e\n      \u003c/div\u003e\n\n      \u003cdiv className=\"bg-white rounded-lg border border-gray-200 p-6 mb-8\"\u003e\n        \u003ch3 className=\"font-bold text-gray-800 mb-4 text-center text-xl\"\u003eYour Performance Summary\u003c/h3\u003e\n\n        \u003cdiv className=\"grid grid-cols-1 md:grid-cols-3 gap-4 mb-6\"\u003e\n          \u003cdiv className=\"bg-gray-50 p-4 rounded-lg text-center\"\u003e\n            \u003cdiv className=\"text-2xl font-bold text-gray-800\"\u003e{correctChoices}\u003c/div\u003e\n            \u003cdiv className=\"text-gray-500\"\u003eCorrect Decisions\u003c/div\u003e\n          \u003c/div\u003e\n\n          \u003cdiv className=\"bg-gray-50 p-4 rounded-lg text-center\"\u003e\n            \u003cdiv className=\"text-2xl font-bold text-gray-800\"\u003e{totalScenarios}\u003c/div\u003e\n            \u003cdiv className=\"text-gray-500\"\u003eTotal Scenarios\u003c/div\u003e\n          \u003c/div\u003e\n\n          \u003cdiv className=\"bg-gray-50 p-4 rounded-lg text-center\"\u003e\n            \u003cdiv className=\"text-2xl font-bold text-gray-800\"\u003e{percentageCorrect}%\u003c/div\u003e\n            \u003cdiv className=\"text-gray-500\"\u003eAccuracy\u003c/div\u003e\n          \u003c/div\u003e\n        \u003c/div\u003e\n\n        \u003cdiv className=\"text-center mb-6\"\u003e\n          \u003cp className=\"text-gray-700 mb-2\"\u003eYour performance level:\u003c/p\u003e\n          \u003cp className={`text-xl font-bold ${performanceColor}`}\u003e{performanceLevel}\u003c/p\u003e\n        \u003c/div\u003e\n\n        \u003cdiv className=\"bg-indigo-50 p-4 rounded-lg\"\u003e\n          \u003ch4 className=\"font-bold text-indigo-800 mb-2\"\u003eAttorney Sarah Chen's Feedback:\u003c/h4\u003e\n          \u003cp className=\"text-indigo-700 italic\"\u003e\n            {percentageCorrect \u003e= 90\n              ? \"Outstanding work! Your attention to detail, procedural knowledge, and decision-making skills are exceptional. You would be an asset to any litigation team.\"\n              : percentageCorrect \u003e= 75\n                ? \"Great job! You've demonstrated strong knowledge of paralegal responsibilities throughout the litigation process. With a bit more experience, you'll be an exceptional litigation paralegal.\"\n                : percentageCorrect \u003e= 60\n                  ? \"Good work! You understand the fundamentals of a paralegal's role in litigation. Continue to develop your knowledge of procedures and best practices.\"\n                  : \"You've completed the case, but there's room for improvement. Review the paralegal responsibilities at each stage of litigation and try again to strengthen your skills.\"}\n          \u003c/p\u003e\n        \u003c/div\u003e\n      \u003c/div\u003e\n\n      \u003cdiv className=\"text-center\"\u003e\n        \u003cbutton\n          onClick={restartGame}\n          className=\"bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg transition-colors\"\n        \u003e\n          Start New Case\n        \u003c/button\u003e\n      \u003c/div\u003e\n    \u003c/div\u003e\n  )\n}\n"])</script><script>self.__next_f.push([1,"22:Te7b,"])</script><script>self.__next_f.push([1,"import type { GameStage } from \"./types\"\n\ninterface StageInfo {\n  title: string\n  shortDescription: string\n  keyTakeaways: string[]\n}\n\nexport const stageInfo: Record\u003cGameStage, StageInfo\u003e = {\n  \"pre-filing\": {\n    title: \"Pre-Filing Investigation\",\n    shortDescription: \"Gather and organize information before filing a lawsuit\",\n    keyTakeaways: [\n      \"Paralegals conduct initial client interviews and organize case information\",\n      \"Document preservation notices must be sent to prevent spoliation of evidence\",\n      \"Thorough investigation of facts and potential witnesses is essential\",\n      \"Statute of limitations must be tracked to ensure timely filing\",\n    ],\n  },\n  pleadings: {\n    title: \"Pleadings Phase\",\n    shortDescription: \"Prepare and file initial court documents\",\n    keyTakeaways: [\n      \"Paralegals draft complaints under attorney supervision\",\n      \"Proper service of process must follow Philadelphia court rules\",\n      \"Filing deadlines must be calendared and tracked meticulously\",\n      \"Responsive pleadings must be monitored and analyzed\",\n    ],\n  },\n  discovery: {\n    title: \"Discovery Process\",\n    shortDescription: \"Exchange information between parties through formal procedures\",\n    keyTakeaways: [\n      \"Paralegals organize document production and maintain privilege logs\",\n      \"Deposition scheduling and preparation requires careful coordination\",\n      \"Discovery requests must be tracked with response deadlines\",\n      \"Electronic discovery requires specialized knowledge of data preservation\",\n    ],\n  },\n  \"pre-trial\": {\n    title: \"Pre-Trial Motions\",\n    shortDescription: \"Prepare and respond to motions before trial\",\n    keyTakeaways: [\n      \"Paralegals assist in drafting motions and supporting research\",\n      \"Proper formatting and citation is essential for court filings\",\n      \"Local court rules must be followed precisely for motion practice\",\n      \"Hearing schedules must be monitored and prepared for\",\n    ],\n  },\n  settlement: {\n    title: \"Settlement Negotiations\",\n    shortDescription: \"Attempt to resolve the case without trial\",\n    keyTakeaways: [\n      \"Paralegals prepare settlement demand packages and documentation\",\n      \"Confidentiality must be maintained during negotiation processes\",\n      \"Settlement agreements require careful review and documentation\",\n      \"Alternative dispute resolution options may be explored\",\n    ],\n  },\n  \"trial-prep\": {\n    title: \"Trial Preparation\",\n    shortDescription: \"Organize evidence and prepare witnesses for trial\",\n    keyTakeaways: [\n      \"Paralegals create and organize trial exhibits and demonstratives\",\n      \"Witness preparation materials must be comprehensive and accessible\",\n      \"Trial binders and technology must be tested and ready\",\n      \"Jury instructions and voir dire questions require research\",\n    ],\n  },\n  trial: {\n    title: \"Trial Proceedings\",\n    shortDescription: \"Support attorneys during courtroom proceedings\",\n    keyTakeaways: [\n      \"Paralegals manage exhibits and evidence presentation during trial\",\n      \"Real-time research and document retrieval is often needed\",\n      \"Witness coordination and scheduling is a critical responsibility\",\n      \"Daily trial transcripts must be reviewed and summarized\",\n    ],\n  },\n  \"post-trial\": {\n    title: \"Post-Trial Procedures\",\n    shortDescription: \"Handle matters after the verdict\",\n    keyTakeaways: [\n      \"Paralegals assist with post-trial motions and appeals preparation\",\n      \"Judgment collection procedures must be researched and implemented\",\n      \"Case files must be properly closed and archived\",\n      \"Client communication remains important after verdict\",\n    ],\n  },\n}\n"])</script><script>self.__next_f.push([1,"23:T9d8e,"])</script><script>self.__next_f.push([1,"import type { GameScenario } from \"./types\"\n\nexport const gameScenarios: GameScenario[] = [\n  // PRE-FILING STAGE SCENARIOS\n  {\n    id: \"pre-filing-1\",\n    title: \"Initial Client Meeting\",\n    description:\n      \"Robert Johnson has arrived for his initial consultation regarding a potential medical malpractice claim against Philadelphia General Hospital. Attorney Sarah Chen asks you to prepare for and assist with the meeting.\",\n    stage: \"pre-filing\",\n    icon: \"👋\",\n    attorneyGuidance: \"Make sure we get all the essential information while being sensitive to the client's situation.\",\n    hint: \"Consider what documents and forms are needed for a new client intake, and what information is critical for evaluating a potential medical malpractice case.\",\n    choices: [\n      {\n        id: \"pf1-a\",\n        text: \"Prepare a standard intake form, medical records release, and fee agreement for the client to sign immediately.\",\n        isCorrect: false,\n        points: 0,\n        feedback:\n          \"While having forms ready is good, it's premature to have a fee agreement before evaluating if the case has merit. Medical malpractice cases require careful screening.\",\n      },\n      {\n        id: \"pf1-b\",\n        text: \"Create a detailed timeline template to record the medical treatment history, prepare HIPAA-compliant medical record release forms, and research the statute of limitations for medical malpractice in Pennsylvania.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Excellent! You've prepared the essential tools for gathering critical information while researching the statute of limitations, which is a crucial first consideration in any case.\",\n      },\n      {\n        id: \"pf1-c\",\n        text: \"Tell the client you'll file a complaint immediately based on their account of what happened.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"This is premature and potentially unethical. Medical malpractice cases require thorough investigation and often expert review before filing.\",\n      },\n    ],\n  },\n  {\n    id: \"pre-filing-2\",\n    title: \"Medical Records Collection\",\n    description:\n      \"After the initial meeting, Attorney Chen decides to investigate Mr. Johnson's potential case. You need to obtain his complete medical records.\",\n    stage: \"pre-filing\",\n    icon: \"📋\",\n    attorneyGuidance:\n      \"We need a complete picture of his treatment history at Philadelphia General and any follow-up care.\",\n    hint: \"Consider the proper procedures for requesting medical records and how to ensure you receive complete records.\",\n    choices: [\n      {\n        id: \"pf2-a\",\n        text: \"Call the hospital records department and ask them to email Mr. Johnson's records as soon as possible.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"This violates HIPAA privacy rules and proper protocol. Medical records require formal written requests with proper authorization.\",\n      },\n      {\n        id: \"pf2-b\",\n        text: \"Prepare a detailed HIPAA-compliant authorization form for Mr. Johnson to sign, specifying exact date ranges and all relevant providers, then send formal requests with follow-up tracking.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Perfect approach! You've followed proper protocol with specific authorizations and established a tracking system to ensure complete records are received.\",\n      },\n      {\n        id: \"pf2-c\",\n        text: \"Have Mr. Johnson request his records personally to save time, then bring them to the office when he receives them.\",\n        isCorrect: false,\n        points: 0,\n        feedback:\n          \"While clients can request their own records, this approach risks incomplete records and lacks proper tracking. The law firm should handle this process professionally.\",\n      },\n    ],\n  },\n  {\n    id: \"pre-filing-3\",\n    title: \"Statute of Limitations Research\",\n    description:\n      \"Attorney Chen asks you to determine the filing deadline for Mr. Johnson's potential medical malpractice case.\",\n    stage: \"pre-filing\",\n    icon: \"⏱️\",\n    attorneyGuidance: \"Make sure we're clear on all possible deadlines that might apply here.\",\n    hint: \"Medical malpractice cases have specific statute of limitations rules that may differ from other civil cases.\",\n    choices: [\n      {\n        id: \"pf3-a\",\n        text: \"Look up the general Pennsylvania statute of limitations for personal injury cases and mark that date on the calendar.\",\n        isCorrect: false,\n        points: 0,\n        feedback:\n          \"Medical malpractice cases often have specific statutes of limitations that differ from general personal injury cases. This approach is insufficient.\",\n      },\n      {\n        id: \"pf3-b\",\n        text: \"Research Pennsylvania's specific medical malpractice statute of limitations, including discovery rule exceptions, and prepare a detailed memo with critical dates.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Excellent! You researched the specific medical malpractice statute (2 years in PA) and the discovery rule, which is crucial since patients may not immediately discover malpractice.\",\n      },\n      {\n        id: \"pf3-c\",\n        text: \"Ask Attorney Chen what the deadline is, as paralegals shouldn't be responsible for determining legal deadlines.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"Researching and tracking deadlines is a key paralegal responsibility. While attorneys are ultimately responsible, paralegals are expected to research and flag these critical dates.\",\n      },\n    ],\n  },\n  {\n    id: \"pre-filing-4\",\n    title: \"Expert Witness Coordination\",\n    description:\n      \"Attorney Chen determines that medical expert review is needed before filing. She asks you to help coordinate with a potential expert witness.\",\n    stage: \"pre-filing\",\n    icon: \"👨‍⚕️\",\n    attorneyGuidance: \"We need a board-certified surgeon to review these records before we can proceed.\",\n    hint: \"Expert witnesses are crucial in medical malpractice cases and require specific handling.\",\n    choices: [\n      {\n        id: \"pf4-a\",\n        text: \"Send the complete medical file to the expert with a note asking for their opinion on whether malpractice occurred.\",\n        isCorrect: false,\n        points: 0,\n        feedback:\n          \"This approach lacks proper organization and specific guidance for the expert. It also fails to establish confidentiality protections.\",\n      },\n      {\n        id: \"pf4-b\",\n        text: \"Prepare a confidentiality agreement, organize the medical records chronologically with a detailed index, and draft a specific engagement letter outlining the expert's role.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Excellent approach! You've protected confidentiality, organized the records professionally, and clearly established the expert's role with proper documentation.\",\n      },\n      {\n        id: \"pf4-c\",\n        text: \"Ask the expert to call Mr. Johnson directly to discuss his case and medical history.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"This violates proper procedure and potentially attorney-client privilege. Experts should review documented records and communicate through the legal team.\",\n      },\n    ],\n  },\n\n  // PLEADINGS STAGE SCENARIOS\n  {\n    id: \"pleadings-1\",\n    title: \"Drafting the Complaint\",\n    description:\n      \"After receiving a favorable expert review, Attorney Chen decides to file a complaint. She asks you to assist in preparing the initial pleading.\",\n    stage: \"pleadings\",\n    icon: \"📝\",\n    attorneyGuidance: \"We need to make sure our complaint meets all the requirements under Pennsylvania rules.\",\n    hint: \"Consider the specific formatting and content requirements for civil complaints in Philadelphia courts.\",\n    choices: [\n      {\n        id: \"pl1-a\",\n        text: \"Download a general complaint template from the internet and fill in the basic facts of Mr. Johnson's case.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"Generic templates often don't comply with local court rules and lack the specific elements required for medical malpractice complaints in Pennsylvania.\",\n      },\n      {\n        id: \"pl1-b\",\n        text: \"Research Philadelphia Court of Common Pleas requirements, prepare a properly formatted complaint draft with numbered paragraphs, and include the certificate of merit required by Pennsylvania law.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Excellent! You've followed proper local court formatting and included the certificate of merit, which is specifically required for medical malpractice cases in Pennsylvania.\",\n      },\n      {\n        id: \"pl1-c\",\n        text: \"Write a detailed narrative of all the facts and damages without worrying about legal formatting, as the attorney will handle the legal aspects.\",\n        isCorrect: false,\n        points: 0,\n        feedback:\n          \"While factual research is important, paralegals should prepare properly formatted legal documents following court rules. The narrative approach creates extra work and may miss required elements.\",\n      },\n    ],\n  },\n  {\n    id: \"pleadings-2\",\n    title: \"Filing and Service\",\n    description:\n      \"The complaint is ready to be filed. Attorney Chen asks you to handle the filing and service of process.\",\n    stage: \"pleadings\",\n    icon: \"⚖️\",\n    attorneyGuidance: \"Make sure we follow all the proper procedures for filing and serving the defendants.\",\n    hint: \"Consider the specific requirements for filing in Philadelphia courts and proper service of process.\",\n    choices: [\n      {\n        id: \"pl2-a\",\n        text: \"E-file the complaint with the Philadelphia Court of Common Pleas, prepare the necessary summonses, and arrange for service via certified mail.\",\n        isCorrect: false,\n        points: 0,\n        feedback:\n          \"While e-filing is correct, in Pennsylvania, service of process in most civil cases cannot be completed by certified mail alone. Personal service is typically required for the initial complaint.\",\n      },\n      {\n        id: \"pl2-b\",\n        text: \"E-file the complaint with the Philadelphia Court of Common Pleas, prepare summonses, and arrange for service by the sheriff or a licensed process server with detailed instructions.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Correct! You've properly e-filed and arranged for service through appropriate channels (sheriff or licensed process server) as required by Pennsylvania rules.\",\n      },\n      {\n        id: \"pl2-c\",\n        text: \"Print the complaint and take it to the courthouse in person, then mail copies to the hospital's general address.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"This approach ignores the e-filing system used by Philadelphia courts and fails to follow proper service requirements, which could result in defective service.\",\n      },\n    ],\n  },\n  {\n    id: \"pleadings-3\",\n    title: \"Responding to Preliminary Objections\",\n    description:\n      \"The hospital's attorneys have filed preliminary objections to the complaint, challenging some of the allegations.\",\n    stage: \"pleadings\",\n    icon: \"🔍\",\n    attorneyGuidance: \"We need to respond to these objections within 20 days. Let's prepare our response.\",\n    hint: \"Consider the proper procedure for responding to preliminary objections in Pennsylvania courts.\",\n    choices: [\n      {\n        id: \"pl3-a\",\n        text: \"Call opposing counsel to negotiate withdrawing the objections informally.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"While communication with opposing counsel can be valuable, formal preliminary objections require a formal written response filed with the court within the deadline.\",\n      },\n      {\n        id: \"pl3-b\",\n        text: \"Research Pennsylvania rules on preliminary objections, calendar the response deadline, and prepare a draft response addressing each objection with appropriate legal research.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Excellent approach! You've followed proper procedure by researching the applicable rules, tracking the critical deadline, and preparing a substantive response to each objection.\",\n      },\n      {\n        id: \"pl3-c\",\n        text: \"File an amended complaint immediately with additional facts to address potential weaknesses.\",\n        isCorrect: false,\n        points: 0,\n        feedback:\n          \"While amending the complaint might eventually be appropriate, the proper first step is to respond to the preliminary objections directly. Amending without addressing the objections could create procedural complications.\",\n      },\n    ],\n  },\n\n  // DISCOVERY STAGE SCENARIOS\n  {\n    id: \"discovery-1\",\n    title: \"Document Request Management\",\n    description:\n      \"The hospital has served extensive requests for production of documents. Attorney Chen asks you to manage the response process.\",\n    stage: \"discovery\",\n    icon: \"📂\",\n    attorneyGuidance:\n      \"These requests are quite broad. Let's make sure we respond appropriately while protecting our client's privacy.\",\n    hint: \"Consider the proper procedures for responding to document requests, including objections and privilege concerns.\",\n    choices: [\n      {\n        id: \"disc1-a\",\n        text: \"Gather all documents from the client and send them directly to opposing counsel to comply with the request.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"This fails to review for relevance, privilege, or objections and could waive important protections. All discovery responses require careful review and formal responses.\",\n      },\n      {\n        id: \"disc1-b\",\n        text: \"Create a tracking system for the requests, review documents for privilege and relevance, prepare a privilege log, draft appropriate objections, and organize responsive documents with Bates numbering.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Excellent! You've implemented a comprehensive system that protects privileged information, raises appropriate objections, and organizes production professionally with proper Bates numbering.\",\n      },\n      {\n        id: \"disc1-c\",\n        text: \"Object to all requests as overly broad and burdensome without reviewing the specific requests.\",\n        isCorrect: false,\n        points: 0,\n        feedback:\n          \"Blanket objections without specificity are generally not effective and may be rejected by the court. Each request requires individual consideration and specific objections where appropriate.\",\n      },\n    ],\n  },\n  {\n    id: \"discovery-2\",\n    title: \"Deposition Preparation\",\n    description:\n      \"Attorney Chen will be deposing the hospital's chief surgeon next week. She asks you to help prepare for the deposition.\",\n    stage: \"discovery\",\n    icon: \"🎙️\",\n    attorneyGuidance:\n      \"This is a critical deposition. We need to be thoroughly prepared with all relevant documents and information.\",\n    hint: \"Consider what materials and arrangements are needed for an effective deposition.\",\n    choices: [\n      {\n        id: \"disc2-a\",\n        text: \"Print out the medical records to bring to the deposition and confirm the time and place with the court reporter.\",\n        isCorrect: false,\n        points: 0,\n        feedback:\n          \"While these steps are necessary, this preparation is minimal and lacks organization of key documents and exhibits needed for an effective deposition.\",\n      },\n      {\n        id: \"disc2-b\",\n        text: \"Create a deposition outline with key document references, prepare and organize exhibits with multiple copies, research the surgeon's background and prior testimony, and coordinate logistics including court reporter, videographer, and conference room.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Excellent preparation! You've organized key documents, researched the witness, prepared exhibits professionally, and handled all logistical arrangements for an effective deposition.\",\n      },\n      {\n        id: \"disc2-c\",\n        text: \"Ask Attorney Chen what specific questions she wants to ask and type them up as a script.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"This approach is too limited. Paralegals should proactively prepare comprehensive materials and exhibits, not just transcribe questions. Effective deposition preparation requires document organization and logistical coordination.\",\n      },\n    ],\n  },\n  {\n    id: \"discovery-3\",\n    title: \"Electronic Discovery\",\n    description:\n      \"The hospital has produced thousands of electronic medical records and emails. Attorney Chen needs help managing this electronic discovery.\",\n    stage: \"discovery\",\n    icon: \"💻\",\n    attorneyGuidance:\n      \"We need to efficiently review these electronic records and identify the key documents for our case.\",\n    hint: \"Consider best practices for managing large volumes of electronic discovery.\",\n    choices: [\n      {\n        id: \"disc3-a\",\n        text: \"Print all the documents so Attorney Chen can review them on paper.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"Printing thousands of electronic documents is inefficient, environmentally wasteful, and eliminates the searchability benefits of electronic discovery.\",\n      },\n      {\n        id: \"disc3-b\",\n        text: \"Set up an organized electronic database with consistent naming conventions, apply metadata tags for key issues and dates, create a searchable index, and prepare a summary of potentially significant documents.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Excellent approach! You've implemented a systematic electronic organization system that preserves searchability and makes review efficient through proper categorization and indexing.\",\n      },\n      {\n        id: \"disc3-c\",\n        text: \"Forward all the electronic files to Attorney Chen via email for her review.\",\n        isCorrect: false,\n        points: 0,\n        feedback:\n          \"This approach provides no organization or analysis, creating an overwhelming and inefficient review process for the attorney.\",\n      },\n    ],\n  },\n\n  // PRE-TRIAL STAGE SCENARIOS\n  {\n    id: \"pre-trial-1\",\n    title: \"Summary Judgment Motion\",\n    description:\n      \"The hospital has filed a motion for summary judgment, arguing there are no disputed material facts and they are entitled to judgment as a matter of law.\",\n    stage: \"pre-trial\",\n    icon: \"📊\",\n    attorneyGuidance: \"This is a critical motion. We need to prepare a strong opposition with all supporting evidence.\",\n    hint: \"Consider what materials and research are needed to oppose a summary judgment motion effectively.\",\n    choices: [\n      {\n        id: \"pt1-a\",\n        text: \"Tell Attorney Chen that summary judgment motions are purely legal arguments that paralegals shouldn't handle.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"This misunderstands the paralegal role. While attorneys make legal arguments, paralegals play a crucial role in researching cases, organizing evidence, and preparing supporting documentation.\",\n      },\n      {\n        id: \"pt1-b\",\n        text: \"Research relevant case law on summary judgment standards, identify all evidence showing disputed material facts, prepare affidavits from witnesses, and create a detailed evidence index linking testimony to specific disputed facts.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Excellent approach! You've provided comprehensive support by researching applicable standards, organizing evidence of factual disputes, and preparing supporting documentation properly indexed to specific issues.\",\n      },\n      {\n        id: \"pt1-c\",\n        text: \"Draft a response arguing the motion should be denied because the case should go to trial.\",\n        isCorrect: false,\n        points: 0,\n        feedback:\n          \"This response lacks the specific evidence and legal research needed. Summary judgment opposition requires identifying specific disputed material facts supported by evidence, not just general arguments for trial.\",\n      },\n    ],\n  },\n  {\n    id: \"pre-trial-2\",\n    title: \"Motion in Limine Preparation\",\n    description: \"Attorney Chen wants to file motions in limine to exclude certain evidence before trial.\",\n    stage: \"pre-trial\",\n    icon: \"🚫\",\n    attorneyGuidance: \"We need to prevent the jury from hearing about Mr. Johnson's prior unrelated medical issues.\",\n    hint: \"Consider the purpose of motions in limine and how to effectively prepare them.\",\n    choices: [\n      {\n        id: \"pt2-a\",\n        text: \"Wait until trial to object to any problematic evidence as it comes up.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"This defeats the purpose of motions in limine, which are specifically designed to resolve evidentiary issues before trial to prevent jury exposure to potentially inadmissible evidence.\",\n      },\n      {\n        id: \"pt2-b\",\n        text: \"Research Pennsylvania rules on evidence admissibility, identify specific prejudicial evidence to exclude, find supporting case law, and prepare a draft motion with specific references to deposition testimony and documents.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Excellent! You've taken a comprehensive approach by researching applicable rules, identifying specific evidence to exclude, finding supporting precedent, and preparing a well-documented motion.\",\n      },\n      {\n        id: \"pt2-c\",\n        text: \"Prepare a general motion asking the court to exclude all evidence harmful to your client's case.\",\n        isCorrect: false,\n        points: 0,\n        feedback:\n          \"Motions in limine must identify specific evidence and provide specific legal grounds for exclusion. Overly broad requests without specific legal basis will likely be denied.\",\n      },\n    ],\n  },\n\n  // SETTLEMENT STAGE SCENARIOS\n  {\n    id: \"settlement-1\",\n    title: \"Settlement Demand Package\",\n    description:\n      \"Attorney Chen wants to send a settlement demand to the hospital's insurance carrier before proceeding further with litigation.\",\n    stage: \"settlement\",\n    icon: \"💰\",\n    attorneyGuidance:\n      \"Let's put together a compelling settlement package that clearly demonstrates liability and damages.\",\n    hint: \"Consider what should be included in an effective settlement demand package.\",\n    choices: [\n      {\n        id: \"set1-a\",\n        text: \"Draft a letter stating the amount of money your client wants to settle the case.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"This approach lacks the supporting documentation and analysis needed for an effective settlement demand. A bare demand without supporting evidence is unlikely to be persuasive.\",\n      },\n      {\n        id: \"set1-b\",\n        text: \"Prepare a comprehensive settlement package including a detailed liability analysis, summary of expert opinions, itemized damages calculation, supporting medical documentation, and relevant case law on similar verdicts.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Excellent! You've created a persuasive and comprehensive package that clearly establishes liability, documents damages thoroughly, and provides context with similar case outcomes.\",\n      },\n      {\n        id: \"set1-c\",\n        text: \"Call the insurance adjuster to discuss settlement possibilities verbally.\",\n        isCorrect: false,\n        points: 0,\n        feedback:\n          \"Settlement negotiations should be documented in writing, and initial demands should be supported by comprehensive documentation. Verbal discussions without documentation can lead to misunderstandings and lack persuasive impact.\",\n      },\n    ],\n  },\n  {\n    id: \"settlement-2\",\n    title: \"Mediation Preparation\",\n    description:\n      \"The court has ordered the parties to attend mediation. Attorney Chen asks you to help prepare for the session.\",\n    stage: \"settlement\",\n    icon: \"🤝\",\n    attorneyGuidance: \"Mediation is our opportunity to resolve this case efficiently. Let's be thoroughly prepared.\",\n    hint: \"Consider what materials and preparation are needed for an effective mediation.\",\n    choices: [\n      {\n        id: \"set2-a\",\n        text: \"Tell the client to attend the mediation and be prepared to discuss the case.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"This provides no meaningful preparation for the client or attorney and fails to organize the materials needed for effective mediation.\",\n      },\n      {\n        id: \"set2-b\",\n        text: \"Prepare a mediation statement with key evidence summaries, create a damages analysis spreadsheet with supporting documentation, organize exhibits in a presentation binder, and prepare the client with information about the mediation process.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Excellent preparation! You've created comprehensive materials for the mediator and attorney while properly preparing the client for what to expect during the process.\",\n      },\n      {\n        id: \"set2-c\",\n        text: \"Research the mediator's background and tell Attorney Chen about their typical approach.\",\n        isCorrect: false,\n        points: 0,\n        feedback:\n          \"While researching the mediator is helpful, this approach is incomplete. Effective mediation preparation requires organizing case materials, preparing damages analyses, and client preparation.\",\n      },\n    ],\n  },\n\n  // TRIAL PREPARATION STAGE SCENARIOS\n  {\n    id: \"trial-prep-1\",\n    title: \"Exhibit Preparation\",\n    description: \"Trial is scheduled to begin in three weeks. Attorney Chen asks you to prepare the trial exhibits.\",\n    stage: \"trial-prep\",\n    icon: \"🗂️\",\n    attorneyGuidance: \"We need all our exhibits organized and ready for efficient presentation at trial.\",\n    hint: \"Consider how trial exhibits should be organized and prepared for effective courtroom presentation.\",\n    choices: [\n      {\n        id: \"tp1-a\",\n        text: \"Make a list of potential exhibits to bring to trial.\",\n        isCorrect: false,\n        points: 0,\n        feedback:\n          \"A simple list is insufficient preparation. Trial exhibits require proper marking, organization, and multiple copies for various participants.\",\n      },\n      {\n        id: \"tp1-b\",\n        text: \"Create a detailed exhibit list with ID numbers, prepare pre-marked exhibits with multiple copies for judge/opposing counsel/witnesses, organize in labeled binders with tabs, prepare electronic versions for display, and draft foundation questions for each exhibit.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Excellent preparation! You've created a comprehensive exhibit system with proper marking, organization, and multiple formats while supporting the attorney with foundation questions.\",\n      },\n      {\n        id: \"tp1-c\",\n        text: \"Bring all case documents to court on the first day of trial for Attorney Chen to use as needed.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"This disorganized approach would create chaos during trial. Exhibits must be pre-marked, organized, and prepared in advance according to court requirements.\",\n      },\n    ],\n  },\n  {\n    id: \"trial-prep-2\",\n    title: \"Witness Preparation\",\n    description: \"Attorney Chen needs to prepare witnesses for trial testimony. She asks for your assistance.\",\n    stage: \"trial-prep\",\n    icon: \"👥\",\n    attorneyGuidance: \"Our witnesses need to be well-prepared and comfortable with the trial process.\",\n    hint: \"Consider what materials and information witnesses need to be properly prepared for testimony.\",\n    choices: [\n      {\n        id: \"tp2-a\",\n        text: \"Tell witnesses when to arrive at court and that Attorney Chen will talk to them before they testify.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"This provides minimal preparation and no materials to help witnesses review relevant information before testimony.\",\n      },\n      {\n        id: \"tp2-b\",\n        text: \"Schedule preparation meetings, create witness folders with prior statements and relevant documents, prepare a witness preparation memo explaining courtroom procedures, and develop anticipated question outlines for each witness.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Excellent approach! You've provided comprehensive support with organized materials, procedural guidance, and substantive preparation while properly scheduling preparation time.\",\n      },\n      {\n        id: \"tp2-c\",\n        text: \"Email the witnesses and tell them to review their deposition transcripts before trial.\",\n        isCorrect: false,\n        points: 0,\n        feedback:\n          \"While reviewing prior testimony is important, this approach lacks organization, in-person preparation, and explanation of courtroom procedures that witnesses need.\",\n      },\n    ],\n  },\n  {\n    id: \"trial-prep-3\",\n    title: \"Jury Instructions Research\",\n    description: \"Attorney Chen asks you to help research and prepare proposed jury instructions for the case.\",\n    stage: \"trial-prep\",\n    icon: \"📜\",\n    attorneyGuidance:\n      \"Jury instructions are critical to our case. We need to make sure the jury understands the legal standards correctly.\",\n    hint: \"Consider how to research and prepare effective proposed jury instructions.\",\n    choices: [\n      {\n        id: \"tp3-a\",\n        text: \"Tell Attorney Chen that jury instructions are purely legal matters that paralegals shouldn't handle.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"This misunderstands the paralegal role. While attorneys make final decisions on legal matters, paralegals commonly research pattern jury instructions and prepare initial drafts.\",\n      },\n      {\n        id: \"tp3-b\",\n        text: \"Research Pennsylvania pattern jury instructions for medical malpractice cases, locate relevant case law supporting modified instructions specific to your case issues, and prepare a properly formatted set of proposed instructions with legal citations.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Excellent work! You've researched standard instructions, found supporting case law for customized instructions, and prepared a properly formatted submission with appropriate citations.\",\n      },\n      {\n        id: \"tp3-c\",\n        text: \"Wait for the judge to provide jury instructions at trial.\",\n        isCorrect: false,\n        points: 0,\n        feedback:\n          \"This passive approach misses the opportunity to advocate for favorable instructions. Parties are typically required to submit proposed instructions and can waive objections if they fail to do so.\",\n      },\n    ],\n  },\n\n  // TRIAL STAGE SCENARIOS\n  {\n    id: \"trial-1\",\n    title: \"Trial Day Management\",\n    description: \"Trial has begun, and Attorney Chen needs your support in the courtroom.\",\n    stage: \"trial\",\n    icon: \"⚖️\",\n    attorneyGuidance: \"I'll need your help managing exhibits and keeping everything organized during testimony.\",\n    hint: \"Consider the paralegal's role in supporting attorneys during active trial proceedings.\",\n    choices: [\n      {\n        id: \"tr1-a\",\n        text: \"Take detailed notes of testimony and manage the presentation of exhibits, maintaining the exhibit log and ensuring all admitted exhibits are properly marked.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Excellent support! You're maintaining critical trial records, managing exhibits professionally, and providing real-time support to the attorney during proceedings.\",\n      },\n      {\n        id: \"tr1-b\",\n        text: \"Sit in the gallery and observe the trial proceedings.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"This passive approach fails to provide the active support attorneys need during trial. Paralegals typically sit at counsel table and provide ongoing assistance with documents, exhibits, and notes.\",\n      },\n      {\n        id: \"tr1-c\",\n        text: \"Handle questioning of background witnesses to give Attorney Chen a break.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"This would constitute unauthorized practice of law. Paralegals cannot question witnesses in court proceedings, as this is strictly an attorney function.\",\n      },\n    ],\n  },\n  {\n    id: \"trial-2\",\n    title: \"Handling Trial Exhibits\",\n    description:\n      \"During cross-examination of a key witness, Attorney Chen urgently needs to reference a specific medical record that contradicts the testimony.\",\n    stage: \"trial\",\n    icon: \"🔍\",\n    attorneyGuidance: \"I need that inconsistent statement from Dr. Miller's notes from June 15th immediately.\",\n    hint: \"Consider how to efficiently locate and provide trial materials during fast-paced testimony.\",\n    choices: [\n      {\n        id: \"tr2-a\",\n        text: \"Tell Attorney Chen you'll look for it during the next break.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"This misses a critical impeachment opportunity. Paralegals must be able to quickly retrieve key documents during testimony when they're most impactful.\",\n      },\n      {\n        id: \"tr2-b\",\n        text: \"Quickly locate the document in your pre-organized trial exhibit system, place it in front of Attorney Chen with a sticky note marking the relevant passage, and update your trial exhibit log if it's admitted.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Excellent real-time support! Your pre-organization allowed quick retrieval at a critical moment, and you properly maintained the exhibit record while highlighting the key information.\",\n      },\n      {\n        id: \"tr2-c\",\n        text: \"Hand Attorney Chen the entire medical record binder to find the document herself.\",\n        isCorrect: false,\n        points: 0,\n        feedback:\n          \"This creates unnecessary delay and distraction during critical testimony. Paralegals should locate specific passages and provide only what's needed at that moment.\",\n      },\n    ],\n  },\n\n  // POST-TRIAL STAGE SCENARIOS\n  {\n    id: \"post-trial-1\",\n    title: \"Post-Trial Motion Preparation\",\n    description:\n      \"The jury has returned a verdict in favor of your client, but the hospital has filed a motion for a new trial. Attorney Chen asks you to help prepare the opposition.\",\n    stage: \"post-trial\",\n    icon: \"  Attorney Chen asks you to help prepare the opposition.\",\n    stage: \"post-trial\",\n    icon: \"📑\",\n    attorneyGuidance: \"We need to defend our verdict and respond to each of their arguments effectively.\",\n    hint: \"Consider what research and materials are needed to oppose a motion for a new trial.\",\n    choices: [\n      {\n        id: \"post1-a\",\n        text: \"Tell Attorney Chen that post-trial motions are purely legal matters that paralegals shouldn't handle.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"This misunderstands the paralegal role. While attorneys make legal arguments, paralegals commonly research case law and prepare supporting documentation for post-trial motions.\",\n      },\n      {\n        id: \"post1-b\",\n        text: \"Research case law on new trial standards, review trial transcript for relevant portions, organize supporting exhibits, and prepare a draft opposition addressing each argument with specific transcript references.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Excellent approach! You've provided comprehensive support with targeted research, organized evidence, and specific transcript citations to counter each argument effectively.\",\n      },\n      {\n        id: \"post1-c\",\n        text: \"Draft a brief response stating that the jury's verdict should stand.\",\n        isCorrect: false,\n        points: 0,\n        feedback:\n          \"This response lacks the specific research, transcript references, and detailed counter-arguments needed to effectively oppose a new trial motion.\",\n      },\n    ],\n  },\n  {\n    id: \"post-trial-2\",\n    title: \"Judgment Collection\",\n    description:\n      \"The court has denied the hospital's motion and entered final judgment in favor of your client. Attorney Chen asks you to research judgment collection procedures.\",\n    stage: \"post-trial\",\n    icon: \"💵\",\n    attorneyGuidance: \"Now we need to make sure our client actually receives the damages awarded by the jury.\",\n    hint: \"Consider the procedures for collecting on a civil judgment in Pennsylvania.\",\n    choices: [\n      {\n        id: \"post2-a\",\n        text: \"Call the hospital and ask them to send a check for the judgment amount.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"This naive approach lacks understanding of formal judgment collection procedures and enforcement mechanisms required when defendants don't voluntarily pay.\",\n      },\n      {\n        id: \"post2-b\",\n        text: \"Research Pennsylvania judgment collection procedures, prepare a judgment execution package with necessary forms, investigate defendant assets, and draft a collection strategy memo with timeline and enforcement options.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Excellent work! You've researched proper procedures, prepared required documentation, investigated collection sources, and developed a comprehensive strategy for enforcement.\",\n      },\n      {\n        id: \"post2-c\",\n        text: \"Tell the client they're responsible for collecting the judgment on their own.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"This incorrectly abandons the client at a critical stage. Law firms typically assist with judgment collection as part of their representation.\",\n      },\n    ],\n  },\n  {\n    id: \"post-trial-3\",\n    title: \"Case Closing Procedures\",\n    description:\n      \"The judgment has been satisfied, and it's time to close the case. Attorney Chen asks you to handle the case closing procedures.\",\n    stage: \"post-trial\",\n    icon: \"📁\",\n    attorneyGuidance: \"Let's make sure we properly close this file and maintain all necessary records.\",\n    hint: \"Consider best practices for closing case files and what needs to be retained.\",\n    choices: [\n      {\n        id: \"post3-a\",\n        text: \"Shred all case documents now that the case is over.\",\n        isCorrect: false,\n        points: -5,\n        feedback:\n          \"This violates ethical obligations and record retention requirements. Case files must be properly preserved according to state bar guidelines and firm policies.\",\n      },\n      {\n        id: \"post3-b\",\n        text: \"Prepare a case closing memo, organize the file according to retention policies, return original client documents, prepare final accounting, archive electronic files with proper backup, and calendar future destruction date per firm policy.\",\n        isCorrect: true,\n        points: 10,\n        feedback:\n          \"Excellent file management! You've followed proper closing procedures, maintained required records, returned client materials, and established appropriate retention scheduling.\",\n      },\n      {\n        id: \"post3-c\",\n        text: \"Put all the documents in storage without organizing them.\",\n        isCorrect: false,\n        points: 0,\n        feedback:\n          \"This disorganized approach makes future retrieval difficult and fails to follow proper file closing procedures, including return of client materials and proper documentation.\",\n      },\n    ],\n  },\n]\n"])</script><script>self.__next_f.push([1,"17:[\"$\",\"$L1a\",null,{\"id\":\"b_MOfenRS64ol\",\"loadClientFiles\":\"$F1b\",\"chatMetadata\":{\"tailwindV4Default\":true,\"title\":\"Paralegal game\",\"context\":{\"ai\":false},\"isFigmaChat\":false,\"isMultiFile\":true,\"completedSteps\":[],\"isAgentEnabled\":true},\"isV3\":false,\"files\":[[\"app/page.tsx\",{\"type\":\"file\",\"data\":\"import { GameProvider } from \\\"@/components/game-provider\\\"\\nimport GameInterface from \\\"@/components/game-interface\\\"\\n\\nexport default function Home() {\\n  return (\\n    \u003cmain className=\\\"min-h-screen bg-slate-50\\\"\u003e\\n      \u003cGameProvider\u003e\\n        \u003cGameInterface /\u003e\\n      \u003c/GameProvider\u003e\\n    \u003c/main\u003e\\n  )\\n}\\n\"}],[\"components/game-provider.tsx\",{\"type\":\"file\",\"data\":\"$1c\"}],[\"components/game-interface.tsx\",{\"type\":\"file\",\"data\":\"$1d\"}],[\"components/screens/intro-screen.tsx\",{\"type\":\"file\",\"data\":\"$1e\"}],[\"components/screens/playing-screen.tsx\",{\"type\":\"file\",\"data\":\"$1f\"}],[\"components/screens/stage-complete-screen.tsx\",{\"type\":\"file\",\"data\":\"$20\"}],[\"components/screens/game-complete-screen.tsx\",{\"type\":\"file\",\"data\":\"$21\"}],[\"lib/types.ts\",{\"type\":\"file\",\"data\":\"export type GameStage =\\n  | \\\"pre-filing\\\"\\n  | \\\"pleadings\\\"\\n  | \\\"discovery\\\"\\n  | \\\"pre-trial\\\"\\n  | \\\"settlement\\\"\\n  | \\\"trial-prep\\\"\\n  | \\\"trial\\\"\\n  | \\\"post-trial\\\"\\n\\nexport type GameState = \\\"intro\\\" | \\\"playing\\\" | \\\"stage-complete\\\" | \\\"complete\\\"\\n\\nexport interface GameScenario {\\n  id: string\\n  title: string\\n  description: string\\n  stage: GameStage\\n  icon?: string\\n  attorneyGuidance?: string\\n  hint: string\\n  choices: {\\n    id: string\\n    text: string\\n    isCorrect: boolean\\n    points: number\\n    feedback: string\\n  }[]\\n}\\n\\nexport interface PlayerChoice {\\n  scenarioId: string\\n  choiceId: string\\n  isCorrect: boolean\\n  points: number\\n  feedback: string\\n}\\n\"}],[\"lib/stage-info.ts\",{\"type\":\"file\",\"data\":\"$22\"}],[\"lib/game-scenarios.ts\",{\"type\":\"file\",\"data\":\"$23\"}]],\"createdAt\":1755023156049,\"defaultPath\":\"/\",\"envPromise\":\"$@24\"}]\n"])</script><script>self.__next_f.push([1,"19:[]\n24:[]\n"])</script><script src="./v0 Game_files/5322-ffaa51b540d806c4.js.download" async=""></script><script src="./v0 Game_files/5262-86e938484b26e4a4.js.download" async=""></script><script src="./v0 Game_files/7770-7b05ee5a6374ee6e.js.download" async=""></script><script src="./v0 Game_files/1518-231978b0e8d6ce00.js.download" async=""></script><script src="./v0 Game_files/3717-1fdc82fd4742ab8a.js.download" async=""></script><script src="./v0 Game_files/5510-d7685aca11327626.js.download" async=""></script><script src="./v0 Game_files/page-720b7eeca355bf04.js.download" async=""></script><script src="./v0 Game_files/tailwind-v4.js.download" async="" fetchpriority="high"></script><script>$RS=function(a,b){a=document.getElementById(a);b=document.getElementById(b);for(a.parentNode.removeChild(a);a.firstChild;)b.parentNode.insertBefore(a.firstChild,b);b.parentNode.removeChild(b)};$RS("S:1","P:1")</script><script>$RB=[];$RV=function(b){$RT=performance.now();for(var a=0;a<b.length;a+=2){var c=b[a],e=b[a+1];null!==e.parentNode&&e.parentNode.removeChild(e);var f=c.parentNode;if(f){var g=c.previousSibling,h=0;do{if(c&&8===c.nodeType){var d=c.data;if("/$"===d||"/&"===d)if(0===h)break;else h--;else"$"!==d&&"$?"!==d&&"$~"!==d&&"$!"!==d&&"&"!==d||h++}d=c.nextSibling;f.removeChild(c);c=d}while(c);for(;e.firstChild;)f.insertBefore(e.firstChild,c);g.data="$";g._reactRetry&&g._reactRetry()}}b.length=0};
+$RC=function(b,a){if(a=document.getElementById(a))(b=document.getElementById(b))?(b.previousSibling.data="$~",$RB.push(b,a),2===$RB.length&&(b="number"!==typeof $RT?0:$RT,a=performance.now(),setTimeout($RV.bind(null,$RB),2300>a&&2E3<a?2300-a:b+300-a))):a.parentNode.removeChild(a)};$RC("B:0","S:0")</script><script>$RC("B:2","S:2")</script><next-route-announcer style="position: absolute;"><template shadowrootmode="open"><div aria-live="assertive" id="__next-route-announcer__" role="alert" style="position: absolute; border: 0px; height: 1px; margin: -1px; padding: 0px; width: 1px; clip: rect(0px, 0px, 0px, 0px); overflow: hidden; white-space: nowrap; overflow-wrap: normal;"></div></template></next-route-announcer></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
